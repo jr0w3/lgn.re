@@ -1,9 +1,14 @@
 ---
-title: "Windows désactiver l'enregistrement des mots de passe du Bureau à distance"
+title: Désactiver l'enregistrement des mots de passe du Bureau à distance
 date: 2023-09-29T16:27:20+02:00
 draft: false
 author: jr0w3
-tags: ["Windows","RDP"]
+tags:
+    - Windows
+    - RDP
+slug: desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance
+categories:
+    - Windows
 ---
 Pour des raisons de sécurité, il peutêtre utiles sur Windows d'empêcher les utilisateurs de mémoriser le mot de passe de leur compte pour une connexion Bureau à distance.
 
