@@ -5,9 +5,8 @@ draft: false
 author: jr0w3
 tags:
    - Git
-slug: cloner-depot-git-avec-ses-sous-modules
 categories:
-   - git
+   - Git
 ---
 ## Cloner un depôt Git avec ses sous-modules
 
