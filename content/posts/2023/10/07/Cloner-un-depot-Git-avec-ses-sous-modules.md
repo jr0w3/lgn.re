@@ -13,7 +13,7 @@ categories:
 
 Vous pouvez cloner un dépôt Git avec des sous-modules en utilisant la commande `git clone` avec l'option `--recurse-submodules`. Voici comment faire :
 
-1. **Copiez l'URL du dépôt** : Rendez-vous sur la page du dépôt (par exemple GitHub) que vous souhaitez cloner. Cliquez sur le bouton "Code" et copiez l'URL du dépôt principal.
+1. **Copiez l'URL du dépôt** : Rendez-vous sur la page du dépôt (par exemple sur GitHub) que vous souhaitez cloner. Cliquez sur le bouton "Code" et copiez l'URL du dépôt principal.
 
 2. **Ouvrez votre terminal** : Ouvrez un terminal sur votre système d'exploitation.
 
