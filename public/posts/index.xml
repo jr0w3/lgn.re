@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on LGN</title>
+    <link>https://lgn.re/posts/</link>
+    <description>Recent content in Posts on LGN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 29 Sep 2023 16:27:20 +0200</lastBuildDate><atom:link href="https://lgn.re/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows désactiver l&#39;enregistrement des mots de passe du Bureau à distance</title>
+      <link>https://lgn.re/posts/2023/09/29/windows-desactiver-lenregistrement-des-mots-de-passe-du-bureau-a-distance/</link>
+      <pubDate>Fri, 29 Sep 2023 16:27:20 +0200</pubDate>
+      
+      <guid>https://lgn.re/posts/2023/09/29/windows-desactiver-lenregistrement-des-mots-de-passe-du-bureau-a-distance/</guid>
+      <description>Pour des raisons de sécurité, il peutêtre utiles sur Windows d&amp;rsquo;empêcher les utilisateurs de mémoriser le mot de passe de leur compte pour une connexion Bureau à distance.
+Désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local Pour désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local, il vous suffit de vous rendre dans: Configuration ordinateur &amp;gt; Composants Windows &amp;gt; Service Bureau à distance &amp;gt; Client Connexion Bureau à distance, il ne vous restera plus alors qu&amp;rsquo;à activer le paramètre &amp;ldquo;Ne pas autoriser l&amp;rsquo;enregistrement des mots de passe&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

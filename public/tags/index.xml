@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on LGN</title>
+    <link>https://lgn.re/tags/</link>
+    <description>Recent content in Tags on LGN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 29 Sep 2023 16:27:20 +0200</lastBuildDate><atom:link href="https://lgn.re/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RDP</title>
+      <link>https://lgn.re/tags/rdp/</link>
+      <pubDate>Fri, 29 Sep 2023 16:27:20 +0200</pubDate>
+      
+      <guid>https://lgn.re/tags/rdp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://lgn.re/tags/windows/</link>
+      <pubDate>Fri, 29 Sep 2023 16:27:20 +0200</pubDate>
+      
+      <guid>https://lgn.re/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
