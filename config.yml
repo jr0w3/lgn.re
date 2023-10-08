@@ -33,7 +33,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -71,7 +71,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Bienvenue !"
-    Content: "Bienvenu sur mon blog, je me présente, jr0w3, je suis technicien système et réseau dans une ESN du sud ouest de la france."
+    Content: "Bienvenu, je me présente, jr0w3, je suis technicien système et réseau dans une ESN du sud ouest de la france. Ce site me permets de rassembler mes notes et astuces."
   socialIcons:
    # - name: twitter
    #   url: "https://twitter.com/"
@@ -93,10 +93,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  #editPost:
-  #  URL: "https://github.com/<path_to_repo>/content"
-  #  Text: "Suggest Changes" # edit text
-  #  appendFilePath: true # to append file path to Edit link
+  editPost:
+    URL: "https://github.com/jr0w3/lgn.re/tree/main/content"
+    Text: "Suggérer une modification" # edit text
+    appendFilePath: true # to append file path to Edit link
   titleCaseStyle: firstupper
   # for search
   # https://fusejs.io/api/options.html
