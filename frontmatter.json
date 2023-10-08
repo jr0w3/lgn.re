@@ -53,6 +53,10 @@
     {
       "title": "content",
       "path": "[[workspace]]/content"
+    },
+    {
+      "title": "10",
+      "path": "[[workspace]]/content/posts/2023/10"
     }
   ]
 }
