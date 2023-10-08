@@ -4,8 +4,8 @@ description: ""
 date: 2023-10-08T16:29:57.359Z
 preview: null
 draft: false
-tags: []
-categories: []
+tags: [OpenVpn,OpenSSL,ca md too weak]
+categories: [OpenVPN]
 ---
 ## Introduction
 
