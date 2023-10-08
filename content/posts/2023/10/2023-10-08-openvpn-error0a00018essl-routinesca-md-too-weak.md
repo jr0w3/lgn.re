@@ -3,7 +3,7 @@ title: OpenVPN error:0A00018E:SSL routines::ca md too weak
 description: ""
 date: 2023-10-08T16:29:57.359Z
 preview: null
-draft: true
+draft: false
 tags: []
 categories: []
 ---
