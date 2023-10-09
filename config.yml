@@ -8,6 +8,11 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+sitemap:
+  changeFreq: ""
+  filename: sitemap.xml
+  priority: -1
+
 disqusShortname: lgn-re
 
 minify:
