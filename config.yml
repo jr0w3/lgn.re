@@ -1,4 +1,4 @@
-baseURL: "https://lgn.re/"
+baseURL: "lgn.re"
 title: LGN
 paginate: 5
 theme: PaperMod
