@@ -125,6 +125,10 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
     #- identifier: example
     #  name: example.org
     #  url: https://example.org
