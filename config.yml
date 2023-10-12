@@ -84,8 +84,8 @@ params:
    #   url: "https://twitter.com/"
    # - name: stackoverflow
    #   url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/jr0w3"
+   # - name: github
+   #   url: "https://github.com/"
 
   analytics:
   #  google:
@@ -101,9 +101,9 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/jr0w3/lgn.re/tree/main/content"
-    Text: "Suggérer une modification" # edit text
-    appendFilePath: true # to append file path to Edit link
+   # URL: "https://github.com//content"
+   # Text: "Suggérer une modification" # edit text
+   # appendFilePath: true # to append file path to Edit link
   titleCaseStyle: firstupper
   # for search
   # https://fusejs.io/api/options.html
