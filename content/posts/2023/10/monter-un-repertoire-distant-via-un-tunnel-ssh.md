@@ -3,7 +3,7 @@ title: "Monter Un Répertoire Distant via Un Tunnel Ssh"
 date: 2023-10-12T06:52:45+02:00
 draft: false
 author: jr0w3
-tags: ["SSH,Mount"]
+tags: ["SSH", "Mount"]
 categories: ["SSH"]
 ---
 

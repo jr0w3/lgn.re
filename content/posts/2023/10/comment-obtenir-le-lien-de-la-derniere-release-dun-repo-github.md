@@ -4,7 +4,7 @@ date: 2023-10-08T18:42:55+02:00
 draft: false
 author: jr0w3
 tags: ["GitHub"]
-category: ["GitHub, HowTo"]
+category: ["GitHub", "HowTo"]
 ---
 
 ## Introduction

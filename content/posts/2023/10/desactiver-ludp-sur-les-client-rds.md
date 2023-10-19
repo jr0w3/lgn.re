@@ -1,5 +1,5 @@
 ---
-title: "Désactiver l'UDP Sur Les Client Rds"
+title: "Désactiver l'UDP Sur Les Clients RDS Windows"
 date: 2023-10-19T12:11:20+02:00
 draft: false
 author: jr0w3
