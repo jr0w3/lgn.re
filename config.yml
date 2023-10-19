@@ -13,8 +13,6 @@ sitemap:
   filename: sitemap.xml
   priority: -1
 
-disqusShortname: lgn-re
-
 minify:
   disableXML: true
   minifyOutput: true
