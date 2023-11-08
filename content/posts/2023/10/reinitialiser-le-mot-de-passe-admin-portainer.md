@@ -4,7 +4,7 @@ date: 2023-10-16T06:57:31+02:00
 draft: false
 author: jr0w3
 tags: ["Docker","Portainer"]
-categories: ["Linux,Docker"]
+categories: ["Linux","Docker"]
 ---
 
 Les développeurs de Portainer ont mis à disposition des utilisateurs un container à déployer en cas de perte de mot de passe.

@@ -4,7 +4,7 @@ date: 2023-10-11T07:17:22+02:00
 draft: false
 author: jr0w3
 tags: ["shutdown","shedule"]
-categories: ["Linux,cmd"]
+categories: ["Linux","cmd"]
 ---
 
 Une petite note avec des exemples pour utiliser la commande `shutdown` afin de planifier un redémarrage de l'OS.
