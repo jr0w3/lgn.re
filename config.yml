@@ -1,6 +1,7 @@
 baseURL: "lgn.re"
 title: LGN
-paginate: 5
+pagination:
+  pagerSize: 10
 theme: PaperMod
 
 enableRobotsTXT: true
