@@ -1,7 +1,7 @@
 ---
 title: "Installer Alpaca Sur Ubuntu"
 date: 2025-02-06T20:09:35+01:00
-draft: true
+draft: false
 author: jr0w3
 tags: ["Alpacat", "LLM", "Linux"]
 categories: ["Linux", "LLM"]
