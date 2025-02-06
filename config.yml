@@ -77,7 +77,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Bienvenue !"
-    Content: "Bienvenue, je me présente, jr0w3, je suis technicien système et réseau dans une ESN du sud-ouest de la France. Ce site me permet de rassembler mes notes et astuces."
+    Content: "Bienvenue, je me présente, jr0w3, je suis Administrateur système et réseau dans le sud-ouest de la France. Ce site me permet de rassembler mes notes et astuces."
   socialIcons:
    # - name: twitter
    #   url: "https://twitter.com/"
