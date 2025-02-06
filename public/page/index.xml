@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on LGN</title>
+    <link>//localhost:1313/page/</link>
+    <description>Recent content in Pages on LGN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Oct 2023 07:02:57 +0200</lastBuildDate><atom:link href="//localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Politique de Commentaires</title>
+      <link>//localhost:1313/page/comment-policy/</link>
+      <pubDate>Mon, 09 Oct 2023 07:02:57 +0200</pubDate>
+      
+      <guid>//localhost:1313/page/comment-policy/</guid>
+      <description>Bienvenue sur [Nom de votre Blog] ! J&amp;rsquo;apprécie votre participation à ma communauté et vos commentaires sur mes articles. Pour garantir un environnement respectueux et constructif pour tous mes lecteurs, j&amp;rsquo;ai établi les lignes directrices suivantes pour les commentaires sur mon blog :
+Respect Mutuel : Soyez respectueux envers les autres commentateurs, les auteurs et les personnes mentionnées dans les articles. Les commentaires offensants, insultants, haineux ou discriminatoires ne seront pas tolérés.</description>
+    </item>
+    
+  </channel>
+</rss>

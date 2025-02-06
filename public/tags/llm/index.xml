@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LLM on LGN</title>
+    <link>//localhost:1313/tags/llm/</link>
+    <description>Recent content in LLM on LGN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Feb 2025 20:09:35 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installer Alpaca Sur Ubuntu</title>
+      <link>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
+      <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
+      <description>Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.
+Installation Installation de Flatpak
+sudo apt install flatpak Ajout du repository de Flathub
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo Installation de Alpaca
+flatpak install flathub com.jeffser.Alpaca Une fois l&amp;rsquo;installation terminée, si on ne trouve pas Alpaca dans le menu des application on peut l&amp;rsquo;ouvrir depuis un terminal avec la commande suivante:</description>
+    </item>
+    
+  </channel>
+</rss>

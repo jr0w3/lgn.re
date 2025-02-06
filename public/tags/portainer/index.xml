@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Portainer on LGN</title>
+    <link>//localhost:1313/tags/portainer/</link>
+    <description>Recent content in Portainer on LGN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Oct 2023 06:57:31 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/portainer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinitialiser Le Mot De Passe Admin Portainer</title>
+      <link>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</link>
+      <pubDate>Mon, 16 Oct 2023 06:57:31 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</guid>
+      <description>Les développeurs de Portainer ont mis à disposition des utilisateurs un container à déployer en cas de perte de mot de passe.
+Pour commencer, on stop le container Portainer:
+docker ps Nous allons devoir récupérer l&amp;rsquo;id du container pour le stopper:
+CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES 71d1a51fd820 portainer/portainer-ce:latest &amp;#34;/portainer&amp;#34; 2 minutes ago Up 2 minutes 0.0.0.0:8000-&amp;gt;8000/tcp, :::8000-&amp;gt;8000/tcp, 0.0.0.0:9443-&amp;gt;9443/tcp, :::9443-&amp;gt;9443/tcp, 9000/tcp portainer L&amp;rsquo;id est 71d1a51fd820.
+Pour stopper le container, nous allons utiliser al commande docker stop ID:</description>
+    </item>
+    
+  </channel>
+</rss>

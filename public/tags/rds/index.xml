@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>RDS on LGN</title>
+    <link>//localhost:1313/tags/rds/</link>
+    <description>Recent content in RDS on LGN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Oct 2023 12:11:20 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/rds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Désactiver l&#39;UDP Sur Les Clients RDS Windows</title>
+      <link>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</link>
+      <pubDate>Thu, 19 Oct 2023 12:11:20 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</guid>
+      <description>L&amp;rsquo;utilisation du protocole UDP avec le RDS (Remote Desktop Service) peut parfois poser des problèmes de stabilité dans certaines conditions. Il peut être nécessaire de déactiver cette possibilité afin de forcer les clients RDS à n&amp;rsquo;utiliser que le protocole TCP.
+Désactivation via l&amp;rsquo;éditeur de stratégie de groupe local: Ouvrir l&amp;rsquo;éditeur de stratégie de groupe local depuis panneaux de configuration ou via le Éxécuter avec gpedit.msc
+Se rendre dans Configuration ordinateur &amp;gt; Modèle d&amp;rsquo;administration &amp;gt; Composants Windows &amp;gt; Services Bureau à distance &amp;gt; Client Connexion Bureau à distance</description>
+    </item>
+    
+  </channel>
+</rss>

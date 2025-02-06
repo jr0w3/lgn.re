@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Shedule on LGN</title>
+    <link>//localhost:1313/tags/shedule/</link>
+    <description>Recent content in Shedule on LGN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Oct 2023 07:17:22 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/shedule/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Planifier Un Redemarrage Sous Linux</title>
+      <link>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</link>
+      <pubDate>Wed, 11 Oct 2023 07:17:22 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</guid>
+      <description>Une petite note avec des exemples pour utiliser la commande shutdown afin de planifier un redémarrage de l&amp;rsquo;OS.
+La commande pour un redémarrage standard se fait avec le paramètre -r
+Redémarrage du système:
+shutdown -r now Arrêt du système:
+shutdown -P now Redémarrage du système à 17:30
+shutdown -r 17:30 Redémarrage du système dans 30 minutes:
+shutdown -r +30 Annuler un arrêt/redémarrage planifié:
+shutdown -c Lister les arrêts/redémarrages planifiés avec systemd:</description>
+    </item>
+    
+  </channel>
+</rss>

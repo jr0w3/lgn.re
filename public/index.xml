@@ -2,19 +2,169 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LGN</title>
-    <link>https://lgn.re/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on LGN</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 29 Sep 2023 16:27:20 +0200</lastBuildDate><atom:link href="https://lgn.re/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Feb 2025 20:09:35 +0100</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Windows désactiver l&#39;enregistrement des mots de passe du Bureau à distance</title>
-      <link>https://lgn.re/posts/2023/09/29/windows-desactiver-lenregistrement-des-mots-de-passe-du-bureau-a-distance/</link>
+      <title>Installer Alpaca Sur Ubuntu</title>
+      <link>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
+      <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
+      <description>Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.
+Installation Installation de Flatpak
+sudo apt install flatpak Ajout du repository de Flathub
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo Installation de Alpaca
+flatpak install flathub com.jeffser.Alpaca Une fois l&amp;rsquo;installation terminée, si on ne trouve pas Alpaca dans le menu des application on peut l&amp;rsquo;ouvrir depuis un terminal avec la commande suivante:</description>
+    </item>
+    
+    <item>
+      <title>Configurer L&#39;heure De L&#39;hote Dans Un Container Docker</title>
+      <link>//localhost:1313/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</link>
+      <pubDate>Fri, 17 Nov 2023 06:12:49 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</guid>
+      <description>Configuration de l&amp;rsquo;heure de l&amp;rsquo;hôte dans un conteneur Docker Lorsque vous travaillez avec des conteneurs Docker, il est crucial de garantir que l&amp;rsquo;heure du conteneur correspond à celle du système hôte pour assurer une synchronisation correcte et des horodatages précis. Heureusement, cela peut être réalisé en ajoutant les fichiers de configuration locaux (/etc/timezone et /etc/localtime) en tant que volumes dans votre conteneur Docker.
+Suivez ces étapes pour mettre en place cette configuration :</description>
+    </item>
+    
+    <item>
+      <title>Ajouter Une Délégation à Un Groupe De Sécurité Sur Exchange OnPremise</title>
+      <link>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</link>
+      <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</guid>
+      <description>Récupération du GUID du groupe Pour commencer, il faut trouver le GUID du groupe. Depuis une console Exchange Mananagent Shell:
+Get-Group -Identity &amp;#34;Techniciens&amp;#34; | Select-Object Name, GUID Cela retourne :
+Name Guid ---- ---- Techniciens 1aXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX info: pour lister tous les groupes, il faut utiliser la commande sans préciser le -Identity &amp;quot;Nom&amp;quot;:
+Get-Group | Select-Object Name, GUID Récupération du ExchangeGUID de la boite sur laquelle mettre la délégation Comme pour le GUID, nous allons rechercher la boite et filtrer le ExchangeGUID.</description>
+    </item>
+    
+    <item>
+      <title>La Commande Base64</title>
+      <link>//localhost:1313/posts/2023/11/la-commande-base64/</link>
+      <pubDate>Wed, 08 Nov 2023 06:41:27 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/11/la-commande-base64/</guid>
+      <description>Comment utiliser le base64 avec fichier ou en ligne de commande direct Le base64 est un système de codage qui permet de représenter des données binaires sous forme de chaînes de caractères ASCII. Il est souvent utilisé pour transmettre des données qui ne sont pas compatibles avec certains protocoles ou formats, comme les images, les fichiers PDF, les courriels, etc.
+Pour utiliser le base64 avec fichier ou en ligne de commande direct, vous pouvez utiliser la commande base64 qui fait partie du paquet coreutils sur les systèmes Linux.</description>
+    </item>
+    
+    <item>
+      <title>La Gestion D&#39;archive Tar</title>
+      <link>//localhost:1313/posts/2023/10/la-gestion-darchive-tar/</link>
+      <pubDate>Mon, 30 Oct 2023 06:30:02 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/la-gestion-darchive-tar/</guid>
+      <description>Créer une archive : Pour créer une archive sans compression, vous pouvez utiliser la commande suivante :
+tar -cvf archive.tar fichier1 fichier2 ... Par exemple, pour créer une archive appelée mon_archive.tar contenant les fichiers fichier1.txt et fichier2.txt, vous exécuteriez :
+tar -cvf mon_archive.tar fichier1.txt fichier2.txt Créer une archive avec plusieurs fichiers : Vous pouvez ajouter plusieurs fichiers à une archive en les spécifiant tous dans la commande tar :</description>
+    </item>
+    
+    <item>
+      <title>Désactiver l&#39;UDP Sur Les Clients RDS Windows</title>
+      <link>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</link>
+      <pubDate>Thu, 19 Oct 2023 12:11:20 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</guid>
+      <description>L&amp;rsquo;utilisation du protocole UDP avec le RDS (Remote Desktop Service) peut parfois poser des problèmes de stabilité dans certaines conditions. Il peut être nécessaire de déactiver cette possibilité afin de forcer les clients RDS à n&amp;rsquo;utiliser que le protocole TCP.
+Désactivation via l&amp;rsquo;éditeur de stratégie de groupe local: Ouvrir l&amp;rsquo;éditeur de stratégie de groupe local depuis panneaux de configuration ou via le Éxécuter avec gpedit.msc
+Se rendre dans Configuration ordinateur &amp;gt; Modèle d&amp;rsquo;administration &amp;gt; Composants Windows &amp;gt; Services Bureau à distance &amp;gt; Client Connexion Bureau à distance</description>
+    </item>
+    
+    <item>
+      <title>Reinitialiser Le Mot De Passe Admin Portainer</title>
+      <link>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</link>
+      <pubDate>Mon, 16 Oct 2023 06:57:31 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</guid>
+      <description>Les développeurs de Portainer ont mis à disposition des utilisateurs un container à déployer en cas de perte de mot de passe.
+Pour commencer, on stop le container Portainer:
+docker ps Nous allons devoir récupérer l&amp;rsquo;id du container pour le stopper:
+CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES 71d1a51fd820 portainer/portainer-ce:latest &amp;#34;/portainer&amp;#34; 2 minutes ago Up 2 minutes 0.0.0.0:8000-&amp;gt;8000/tcp, :::8000-&amp;gt;8000/tcp, 0.0.0.0:9443-&amp;gt;9443/tcp, :::9443-&amp;gt;9443/tcp, 9000/tcp portainer L&amp;rsquo;id est 71d1a51fd820.
+Pour stopper le container, nous allons utiliser al commande docker stop ID:</description>
+    </item>
+    
+    <item>
+      <title>Monter Un Répertoire Distant via Un Tunnel Ssh</title>
+      <link>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</link>
+      <pubDate>Thu, 12 Oct 2023 06:52:45 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</guid>
+      <description>SSHFS est un outil en ligne de commande qui permet de monter un système de fichier distant via SSH et plus précisément en utilisant SFTP. Sachez que SFTP et actif par défaut sur la plupart des serveurs OpenSSH.
+Installer SSHFS: apt install sshfs Monter un répertoire: sshfs [user@]hôte:[Dossier] PointDeMontage [options] Si l&amp;rsquo;hôte est une adresse IPv6, elle doit être placée entre crochets.
+Voici un exemple pour monter le dossier /home/john/tool présent sur le serveur distant 192.</description>
+    </item>
+    
+    <item>
+      <title>Planifier Un Redemarrage Sous Linux</title>
+      <link>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</link>
+      <pubDate>Wed, 11 Oct 2023 07:17:22 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</guid>
+      <description>Une petite note avec des exemples pour utiliser la commande shutdown afin de planifier un redémarrage de l&amp;rsquo;OS.
+La commande pour un redémarrage standard se fait avec le paramètre -r
+Redémarrage du système:
+shutdown -r now Arrêt du système:
+shutdown -P now Redémarrage du système à 17:30
+shutdown -r 17:30 Redémarrage du système dans 30 minutes:
+shutdown -r +30 Annuler un arrêt/redémarrage planifié:
+shutdown -c Lister les arrêts/redémarrages planifiés avec systemd:</description>
+    </item>
+    
+    <item>
+      <title>Politique de Commentaires</title>
+      <link>//localhost:1313/page/comment-policy/</link>
+      <pubDate>Mon, 09 Oct 2023 07:02:57 +0200</pubDate>
+      
+      <guid>//localhost:1313/page/comment-policy/</guid>
+      <description>Bienvenue sur [Nom de votre Blog] ! J&amp;rsquo;apprécie votre participation à ma communauté et vos commentaires sur mes articles. Pour garantir un environnement respectueux et constructif pour tous mes lecteurs, j&amp;rsquo;ai établi les lignes directrices suivantes pour les commentaires sur mon blog :
+Respect Mutuel : Soyez respectueux envers les autres commentateurs, les auteurs et les personnes mentionnées dans les articles. Les commentaires offensants, insultants, haineux ou discriminatoires ne seront pas tolérés.</description>
+    </item>
+    
+    <item>
+      <title>Comment Obtenir Le Lien De La Derniere Release Dun Repo Github</title>
+      <link>//localhost:1313/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</link>
+      <pubDate>Sun, 08 Oct 2023 18:42:55 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</guid>
+      <description>Introduction Lorsque vous souhaitez télécharger la dernière version d’un logiciel open-source à partir de son repository Github, vous devez d’abord trouver le lien de téléchargement pour la dernière release disponible. Dans cet article, nous allons vous montrer comment trouver ce lien de téléchargement à l’aide de l’API Github.
+Utilisation de l’API Github pour récupérer les informations de version La première étape consiste à utiliser l’API Github pour récupérer les informations sur la dernière release du repository.</description>
+    </item>
+    
+    <item>
+      <title>OpenVPN error:0A00018E:SSL routines::ca md too weak</title>
+      <link>//localhost:1313/posts/2023/10/openvpn-error0a00018essl-routinesca-md-too-weak/</link>
+      <pubDate>Sun, 08 Oct 2023 16:29:57 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/openvpn-error0a00018essl-routinesca-md-too-weak/</guid>
+      <description>Introduction L’erreur « OpenSSL: error:0A00018E:SSL routines::ca md too weak » est un message d’erreur qui apparaît lorsqu’OpenSSL, une bibliothèque de cryptographie utilisée pour sécuriser les connexions réseau, détecte un algorithme de hachage CA (Certificate Authority) trop faible. Cela signifie que la sécurité de la connexion est compromise et qu’il peut y avoir un risque de compromission de la confidentialité et de l’intégrité des données échangées.
+En termes plus simples, cette erreur se produit lorsqu’un certificat utilisé pour sécuriser une connexion VPN ou un autre type de connexion réseau utilise un algorithme de hachage CA faible, qui peut être facilement compromis par des attaquants malveillants.</description>
+    </item>
+    
+    <item>
+      <title>Cloner un dépôt Git avec ses sous-modules</title>
+      <link>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</link>
+      <pubDate>Sat, 07 Oct 2023 07:42:11 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</guid>
+      <description>Cloner un depôt Git avec ses sous-modules Vous pouvez cloner un dépôt Git avec des sous-modules en utilisant la commande git clone avec l&amp;rsquo;option --recurse-submodules. Voici comment faire :
+Copiez l&amp;rsquo;URL du dépôt : Rendez-vous sur la page du dépôt (par exemple sur GitHub) que vous souhaitez cloner. Cliquez sur le bouton &amp;ldquo;Code&amp;rdquo; et copiez l&amp;rsquo;URL du dépôt principal.
+Ouvrez votre terminal : Ouvrez un terminal sur votre système d&amp;rsquo;exploitation.</description>
+    </item>
+    
+    <item>
+      <title>Désactiver l&#39;enregistrement des mots de passe du Bureau à distance</title>
+      <link>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</link>
       <pubDate>Fri, 29 Sep 2023 16:27:20 +0200</pubDate>
       
-      <guid>https://lgn.re/posts/2023/09/29/windows-desactiver-lenregistrement-des-mots-de-passe-du-bureau-a-distance/</guid>
+      <guid>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</guid>
       <description>Pour des raisons de sécurité, il peutêtre utiles sur Windows d&amp;rsquo;empêcher les utilisateurs de mémoriser le mot de passe de leur compte pour une connexion Bureau à distance.
 Désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local Pour désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local, il vous suffit de vous rendre dans: Configuration ordinateur &amp;gt; Composants Windows &amp;gt; Service Bureau à distance &amp;gt; Client Connexion Bureau à distance, il ne vous restera plus alors qu&amp;rsquo;à activer le paramètre &amp;ldquo;Ne pas autoriser l&amp;rsquo;enregistrement des mots de passe&amp;rdquo;.</description>
     </item>
+    
     
   </channel>
 </rss>

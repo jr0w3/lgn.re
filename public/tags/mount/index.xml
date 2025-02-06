@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mount on LGN</title>
+    <link>//localhost:1313/tags/mount/</link>
+    <description>Recent content in Mount on LGN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Oct 2023 06:52:45 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/mount/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monter Un Répertoire Distant via Un Tunnel Ssh</title>
+      <link>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</link>
+      <pubDate>Thu, 12 Oct 2023 06:52:45 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</guid>
+      <description>SSHFS est un outil en ligne de commande qui permet de monter un système de fichier distant via SSH et plus précisément en utilisant SFTP. Sachez que SFTP et actif par défaut sur la plupart des serveurs OpenSSH.
+Installer SSHFS: apt install sshfs Monter un répertoire: sshfs [user@]hôte:[Dossier] PointDeMontage [options] Si l&amp;rsquo;hôte est une adresse IPv6, elle doit être placée entre crochets.
+Voici un exemple pour monter le dossier /home/john/tool présent sur le serveur distant 192.</description>
+    </item>
+    
+  </channel>
+</rss>

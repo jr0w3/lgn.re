@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Powershell on LGN</title>
+    <link>//localhost:1313/categories/powershell/</link>
+    <description>Recent content in Powershell on LGN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Nov 2023 16:43:37 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ajouter Une Délégation à Un Groupe De Sécurité Sur Exchange OnPremise</title>
+      <link>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</link>
+      <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</guid>
+      <description>Récupération du GUID du groupe Pour commencer, il faut trouver le GUID du groupe. Depuis une console Exchange Mananagent Shell:
+Get-Group -Identity &amp;#34;Techniciens&amp;#34; | Select-Object Name, GUID Cela retourne :
+Name Guid ---- ---- Techniciens 1aXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX info: pour lister tous les groupes, il faut utiliser la commande sans préciser le -Identity &amp;quot;Nom&amp;quot;:
+Get-Group | Select-Object Name, GUID Récupération du ExchangeGUID de la boite sur laquelle mettre la délégation Comme pour le GUID, nous allons rechercher la boite et filtrer le ExchangeGUID.</description>
+    </item>
+    
+  </channel>
+</rss>
