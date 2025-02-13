@@ -1,7 +1,7 @@
 ---
 title: "Lister Les Sessions Smb Sur Windows"
 date: 2025-02-13T17:04:39+01:00
-draft: true
+draft: fasle
 author: jr0w3
 tags: ["Windows", "SMB"]
 categories: ["Windows", "SMB"]
