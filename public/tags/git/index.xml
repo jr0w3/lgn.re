@@ -4,19 +4,26 @@
     <title>Git on LGN</title>
     <link>//localhost:1313/tags/git/</link>
     <description>Recent content in Git on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Oct 2023 07:42:11 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 07:42:11 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloner un dépôt Git avec ses sous-modules</title>
       <link>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</link>
       <pubDate>Sat, 07 Oct 2023 07:42:11 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</guid>
-      <description>Cloner un depôt Git avec ses sous-modules Vous pouvez cloner un dépôt Git avec des sous-modules en utilisant la commande git clone avec l&amp;rsquo;option --recurse-submodules. Voici comment faire :
-Copiez l&amp;rsquo;URL du dépôt : Rendez-vous sur la page du dépôt (par exemple sur GitHub) que vous souhaitez cloner. Cliquez sur le bouton &amp;ldquo;Code&amp;rdquo; et copiez l&amp;rsquo;URL du dépôt principal.
-Ouvrez votre terminal : Ouvrez un terminal sur votre système d&amp;rsquo;exploitation.</description>
+      <description>&lt;h2 id=&#34;cloner-un-depôt-git-avec-ses-sous-modules&#34;&gt;Cloner un depôt Git avec ses sous-modules&lt;/h2&gt;
+&lt;p&gt;Vous pouvez cloner un dépôt Git avec des sous-modules en utilisant la commande &lt;code&gt;git clone&lt;/code&gt; avec l&amp;rsquo;option &lt;code&gt;--recurse-submodules&lt;/code&gt;. Voici comment faire :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Copiez l&amp;rsquo;URL du dépôt&lt;/strong&gt; : Rendez-vous sur la page du dépôt (par exemple sur GitHub) que vous souhaitez cloner. Cliquez sur le bouton &amp;ldquo;Code&amp;rdquo; et copiez l&amp;rsquo;URL du dépôt principal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ouvrez votre terminal&lt;/strong&gt; : Ouvrez un terminal sur votre système d&amp;rsquo;exploitation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Utilisez la commande &lt;code&gt;git clone&lt;/code&gt; avec &lt;code&gt;--recurse-submodules&lt;/code&gt;&lt;/strong&gt; : Utilisez la commande &lt;code&gt;git clone&lt;/code&gt; en spécifiant l&amp;rsquo;URL du dépôt principal et l&amp;rsquo;option &lt;code&gt;--recurse-submodules&lt;/code&gt;. Par exemple :&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

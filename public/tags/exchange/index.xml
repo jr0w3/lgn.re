@@ -4,20 +4,28 @@
     <title>Exchange on LGN</title>
     <link>//localhost:1313/tags/exchange/</link>
     <description>Recent content in Exchange on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Nov 2023 16:43:37 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/exchange/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2023 16:43:37 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/exchange/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ajouter Une Délégation à Un Groupe De Sécurité Sur Exchange OnPremise</title>
       <link>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</link>
       <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
-      
       <guid>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</guid>
-      <description>Récupération du GUID du groupe Pour commencer, il faut trouver le GUID du groupe. Depuis une console Exchange Mananagent Shell:
-Get-Group -Identity &amp;#34;Techniciens&amp;#34; | Select-Object Name, GUID Cela retourne :
-Name Guid ---- ---- Techniciens 1aXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX info: pour lister tous les groupes, il faut utiliser la commande sans préciser le -Identity &amp;quot;Nom&amp;quot;:
-Get-Group | Select-Object Name, GUID Récupération du ExchangeGUID de la boite sur laquelle mettre la délégation Comme pour le GUID, nous allons rechercher la boite et filtrer le ExchangeGUID.</description>
+      <description>&lt;h2 id=&#34;récupération-du-guid-du-groupe&#34;&gt;Récupération du GUID du groupe&lt;/h2&gt;
+&lt;p&gt;Pour commencer, il faut trouver le GUID du groupe.
+Depuis une console &lt;strong&gt;Exchange Mananagent Shell&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;Get-Group&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Identity&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Techniciens&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Select-Object&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GUID&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Cela retourne :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Name&lt;/span&gt;        &lt;span class=&#34;n&#34;&gt;Guid&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;----&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;----&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Techniciens&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;1aXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;info: pour lister tous les groupes, il faut utiliser la commande sans préciser le &lt;code&gt;-Identity &amp;quot;Nom&amp;quot;&lt;/code&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;Get-Group&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Select-Object&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GUID&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;récupération-du-exchangeguid-de-la-boite-sur-laquelle-mettre-la-délégation&#34;&gt;Récupération du ExchangeGUID de la boite sur laquelle mettre la délégation&lt;/h2&gt;
+&lt;p&gt;Comme pour le GUID, nous allons rechercher la boite et filtrer le &lt;strong&gt;ExchangeGUID&lt;/strong&gt;.
+Nous utilisons le &lt;code&gt;-Identity&lt;/code&gt; pour rechercher notre boite. On peut également rechercher avec le &lt;em&gt;sAMAccountName&lt;/em&gt;*:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

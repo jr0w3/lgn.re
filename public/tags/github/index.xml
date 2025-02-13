@@ -4,18 +4,19 @@
     <title>GitHub on LGN</title>
     <link>//localhost:1313/tags/github/</link>
     <description>Recent content in GitHub on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Oct 2023 18:42:55 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Oct 2023 18:42:55 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comment Obtenir Le Lien De La Derniere Release Dun Repo Github</title>
       <link>//localhost:1313/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</link>
       <pubDate>Sun, 08 Oct 2023 18:42:55 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</guid>
-      <description>Introduction Lorsque vous souhaitez télécharger la dernière version d’un logiciel open-source à partir de son repository Github, vous devez d’abord trouver le lien de téléchargement pour la dernière release disponible. Dans cet article, nous allons vous montrer comment trouver ce lien de téléchargement à l’aide de l’API Github.
-Utilisation de l’API Github pour récupérer les informations de version La première étape consiste à utiliser l’API Github pour récupérer les informations sur la dernière release du repository.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Lorsque vous souhaitez télécharger la dernière version d’un logiciel open-source à partir de son repository Github, vous devez d’abord trouver le lien de téléchargement pour la dernière release disponible. Dans cet article, nous allons vous montrer comment trouver ce lien de téléchargement à l’aide de l’API Github.&lt;/p&gt;
+&lt;h2 id=&#34;utilisation-de-lapi-github-pour-récupérer-les-informations-de-version&#34;&gt;Utilisation de l’API Github pour récupérer les informations de version&lt;/h2&gt;
+&lt;p&gt;La première étape consiste à utiliser l’API Github pour récupérer les informations sur la dernière release du repository. Pour ce faire, nous pouvons utiliser l’URL suivante :&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,19 +4,23 @@
     <title>Mount on LGN</title>
     <link>//localhost:1313/tags/mount/</link>
     <description>Recent content in Mount on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Oct 2023 06:52:45 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/mount/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Oct 2023 06:52:45 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/mount/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monter Un Répertoire Distant via Un Tunnel Ssh</title>
       <link>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</link>
       <pubDate>Thu, 12 Oct 2023 06:52:45 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</guid>
-      <description>SSHFS est un outil en ligne de commande qui permet de monter un système de fichier distant via SSH et plus précisément en utilisant SFTP. Sachez que SFTP et actif par défaut sur la plupart des serveurs OpenSSH.
-Installer SSHFS: apt install sshfs Monter un répertoire: sshfs [user@]hôte:[Dossier] PointDeMontage [options] Si l&amp;rsquo;hôte est une adresse IPv6, elle doit être placée entre crochets.
-Voici un exemple pour monter le dossier /home/john/tool présent sur le serveur distant 192.</description>
+      <description>&lt;p&gt;&lt;code&gt;SSHFS&lt;/code&gt; est un outil en ligne de commande qui permet de monter un système de fichier distant via &lt;code&gt;SSH&lt;/code&gt; et plus précisément en utilisant &lt;code&gt;SFTP&lt;/code&gt;.
+Sachez que &lt;code&gt;SFTP&lt;/code&gt; et actif par défaut sur la plupart des serveurs OpenSSH.&lt;/p&gt;
+&lt;h3 id=&#34;installer-sshfs&#34;&gt;Installer SSHFS:&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;apt install sshfs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;monter-un-répertoire&#34;&gt;Monter un répertoire:&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sshfs &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;user@&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;hôte:&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Dossier&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; PointDeMontage &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;options&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Si l&amp;rsquo;hôte est une adresse IPv6, elle doit être placée entre crochets.&lt;/p&gt;
+&lt;p&gt;Voici un exemple pour monter le dossier &lt;code&gt;/home/john/tool&lt;/code&gt; présent sur le serveur distant &lt;code&gt;192.168.10.20&lt;/code&gt; vers le dossier local &lt;code&gt;~/tool&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

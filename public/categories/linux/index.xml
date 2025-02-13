@@ -4,60 +4,66 @@
     <title>Linux on LGN</title>
     <link>//localhost:1313/categories/linux/</link>
     <description>Recent content in Linux on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2025 20:09:35 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 20:09:35 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installer Alpaca Sur Ubuntu</title>
       <link>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
       <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      
       <guid>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
-      <description>Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.
-Installation Installation de Flatpak
-sudo apt install flatpak Ajout du repository de Flathub
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo Installation de Alpaca
-flatpak install flathub com.jeffser.Alpaca Une fois l&amp;rsquo;installation terminée, si on ne trouve pas Alpaca dans le menu des application on peut l&amp;rsquo;ouvrir depuis un terminal avec la commande suivante:</description>
+      <description>&lt;p&gt;Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Installation de Flatpak&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install flatpak
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ajout du repository de Flathub&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Installation de Alpaca&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;flatpak install flathub com.jeffser.Alpaca
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Une fois l&amp;rsquo;installation terminée, si on ne trouve pas Alpaca dans le menu des application on peut l&amp;rsquo;ouvrir depuis un terminal avec la commande suivante:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>La Commande Base64</title>
       <link>//localhost:1313/posts/2023/11/la-commande-base64/</link>
       <pubDate>Wed, 08 Nov 2023 06:41:27 +0100</pubDate>
-      
       <guid>//localhost:1313/posts/2023/11/la-commande-base64/</guid>
-      <description>Comment utiliser le base64 avec fichier ou en ligne de commande direct Le base64 est un système de codage qui permet de représenter des données binaires sous forme de chaînes de caractères ASCII. Il est souvent utilisé pour transmettre des données qui ne sont pas compatibles avec certains protocoles ou formats, comme les images, les fichiers PDF, les courriels, etc.
-Pour utiliser le base64 avec fichier ou en ligne de commande direct, vous pouvez utiliser la commande base64 qui fait partie du paquet coreutils sur les systèmes Linux.</description>
+      <description>&lt;h1 id=&#34;comment-utiliser-le-base64-avec-fichier-ou-en-ligne-de-commande-direct&#34;&gt;Comment utiliser le base64 avec fichier ou en ligne de commande direct&lt;/h1&gt;
+&lt;p&gt;Le base64 est un système de codage qui permet de représenter des données binaires sous forme de chaînes de caractères ASCII. Il est souvent utilisé pour transmettre des données qui ne sont pas compatibles avec certains protocoles ou formats, comme les images, les fichiers PDF, les courriels, etc.&lt;/p&gt;
+&lt;p&gt;Pour utiliser le base64 avec fichier ou en ligne de commande direct, vous pouvez utiliser la commande base64 qui fait partie du paquet coreutils sur les systèmes Linux. Cette commande permet de coder ou de décoder des données en base64 en utilisant des options et des arguments.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Reinitialiser Le Mot De Passe Admin Portainer</title>
       <link>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</link>
       <pubDate>Mon, 16 Oct 2023 06:57:31 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</guid>
-      <description>Les développeurs de Portainer ont mis à disposition des utilisateurs un container à déployer en cas de perte de mot de passe.
-Pour commencer, on stop le container Portainer:
-docker ps Nous allons devoir récupérer l&amp;rsquo;id du container pour le stopper:
-CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES 71d1a51fd820 portainer/portainer-ce:latest &amp;#34;/portainer&amp;#34; 2 minutes ago Up 2 minutes 0.0.0.0:8000-&amp;gt;8000/tcp, :::8000-&amp;gt;8000/tcp, 0.0.0.0:9443-&amp;gt;9443/tcp, :::9443-&amp;gt;9443/tcp, 9000/tcp portainer L&amp;rsquo;id est 71d1a51fd820.
-Pour stopper le container, nous allons utiliser al commande docker stop ID:</description>
+      <description>&lt;p&gt;Les développeurs de Portainer ont mis à disposition des utilisateurs un container à déployer en cas de perte de mot de passe.&lt;/p&gt;
+&lt;p&gt;Pour commencer, on stop le container Portainer:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker ps
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nous allons devoir récupérer l&amp;rsquo;id du container pour le stopper:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONTAINER ID   IMAGE                           COMMAND                  CREATED         STATUS                    PORTS                                                                                            NAMES
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;71d1a51fd820   portainer/portainer-ce:latest   &lt;span class=&#34;s2&#34;&gt;&amp;#34;/portainer&amp;#34;&lt;/span&gt;             &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; minutes ago   Up &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; minutes              0.0.0.0:8000-&amp;gt;8000/tcp, :::8000-&amp;gt;8000/tcp, 0.0.0.0:9443-&amp;gt;9443/tcp, :::9443-&amp;gt;9443/tcp, 9000/tcp   portainer
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;L&amp;rsquo;id est &lt;code&gt;71d1a51fd820&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Pour stopper le container, nous allons utiliser al commande &lt;code&gt;docker stop ID&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Planifier Un Redemarrage Sous Linux</title>
       <link>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</link>
       <pubDate>Wed, 11 Oct 2023 07:17:22 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</guid>
-      <description>Une petite note avec des exemples pour utiliser la commande shutdown afin de planifier un redémarrage de l&amp;rsquo;OS.
-La commande pour un redémarrage standard se fait avec le paramètre -r
-Redémarrage du système:
-shutdown -r now Arrêt du système:
-shutdown -P now Redémarrage du système à 17:30
-shutdown -r 17:30 Redémarrage du système dans 30 minutes:
-shutdown -r +30 Annuler un arrêt/redémarrage planifié:
-shutdown -c Lister les arrêts/redémarrages planifiés avec systemd:</description>
+      <description>&lt;p&gt;Une petite note avec des exemples pour utiliser la commande &lt;code&gt;shutdown&lt;/code&gt; afin de planifier un redémarrage de l&amp;rsquo;OS.&lt;/p&gt;
+&lt;p&gt;La commande pour un redémarrage standard se fait avec le paramètre &lt;code&gt;-r&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Redémarrage du système:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown -r now
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Arrêt du système:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown -P now
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Redémarrage du système à 17:30&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown -r 17:30
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Redémarrage du système dans 30 minutes:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown -r +30
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Annuler un arrêt/redémarrage planifié:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown -c
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Lister les arrêts/redémarrages planifiés avec &lt;code&gt;systemd&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

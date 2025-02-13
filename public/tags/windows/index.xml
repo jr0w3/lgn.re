@@ -4,18 +4,30 @@
     <title>Windows on LGN</title>
     <link>//localhost:1313/tags/windows/</link>
     <description>Recent content in Windows on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Sep 2023 16:27:20 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Feb 2025 17:04:39 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lister Les Sessions Smb Sur Windows</title>
+      <link>//localhost:1313/posts/2025/02/lister-les-sessions-smb-sur-windows/</link>
+      <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
+      <guid>//localhost:1313/posts/2025/02/lister-les-sessions-smb-sur-windows/</guid>
+      <description>&lt;h2 id=&#34;get-smbsession&#34;&gt;&lt;code&gt;Get-SmbSession&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Cette commande permet d&amp;rsquo;afficher les sessions SMB actives sur un serveur Windows. Elle liste les utilisateurs connectés ainsi que des informations comme le nom du client et l&amp;rsquo;état de la connexion.&lt;/p&gt;
+&lt;h2 id=&#34;get-smbsession--measure-objectcount&#34;&gt;&lt;code&gt;(Get-SmbSession | Measure-Object).Count&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Cette commande compte le nombre total de sessions SMB actives. Elle utilise &lt;code&gt;Measure-Object&lt;/code&gt; pour mesurer le nombre d&amp;rsquo;objets retournés par &lt;code&gt;Get-SmbSession&lt;/code&gt; et affiche uniquement le nombre total.&lt;/p&gt;
+&lt;h2 id=&#34;while-true-clear-host-get-smbsession--measure-object--select-object--expandproperty-count-start-sleep--seconds-2&#34;&gt;&lt;code&gt;while ($true) {Clear-Host; Get-SmbSession | Measure-Object | Select-Object -ExpandProperty Count; Start-Sleep -Seconds 2}&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Ce script exécute une boucle infinie qui :&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Désactiver l&#39;enregistrement des mots de passe du Bureau à distance</title>
       <link>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</link>
       <pubDate>Fri, 29 Sep 2023 16:27:20 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</guid>
-      <description>Pour des raisons de sécurité, il peutêtre utiles sur Windows d&amp;rsquo;empêcher les utilisateurs de mémoriser le mot de passe de leur compte pour une connexion Bureau à distance.
-Désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local Pour désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local, il vous suffit de vous rendre dans: Configuration ordinateur &amp;gt; Composants Windows &amp;gt; Service Bureau à distance &amp;gt; Client Connexion Bureau à distance, il ne vous restera plus alors qu&amp;rsquo;à activer le paramètre &amp;ldquo;Ne pas autoriser l&amp;rsquo;enregistrement des mots de passe&amp;rdquo;.</description>
+      <description>&lt;p&gt;Pour des raisons de sécurité, il peutêtre utiles sur Windows d&amp;rsquo;empêcher les utilisateurs de mémoriser le mot de passe de leur compte pour une connexion Bureau à distance.&lt;/p&gt;
+&lt;h4 id=&#34;désactiver-la-mémorisation-depuis-léditeur-de-stratégie-de-groupe-local&#34;&gt;Désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local&lt;/h4&gt;
+&lt;p&gt;Pour désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local, il vous suffit de vous rendre dans: &lt;strong&gt;Configuration ordinateur&lt;/strong&gt; &amp;gt; &lt;strong&gt;Composants Windows&lt;/strong&gt; &amp;gt; &lt;strong&gt;Service Bureau à distance&lt;/strong&gt; &amp;gt; &lt;strong&gt;Client Connexion Bureau à distance&lt;/strong&gt;, il ne vous restera plus alors qu&amp;rsquo;à activer le paramètre &amp;ldquo;&lt;strong&gt;Ne pas autoriser l&amp;rsquo;enregistrement des mots de passe&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,19 +4,24 @@
     <title>UDP on LGN</title>
     <link>//localhost:1313/tags/udp/</link>
     <description>Recent content in UDP on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Oct 2023 12:11:20 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/udp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Oct 2023 12:11:20 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/udp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Désactiver l&#39;UDP Sur Les Clients RDS Windows</title>
       <link>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</link>
       <pubDate>Thu, 19 Oct 2023 12:11:20 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</guid>
-      <description>L&amp;rsquo;utilisation du protocole UDP avec le RDS (Remote Desktop Service) peut parfois poser des problèmes de stabilité dans certaines conditions. Il peut être nécessaire de déactiver cette possibilité afin de forcer les clients RDS à n&amp;rsquo;utiliser que le protocole TCP.
-Désactivation via l&amp;rsquo;éditeur de stratégie de groupe local: Ouvrir l&amp;rsquo;éditeur de stratégie de groupe local depuis panneaux de configuration ou via le Éxécuter avec gpedit.msc
-Se rendre dans Configuration ordinateur &amp;gt; Modèle d&amp;rsquo;administration &amp;gt; Composants Windows &amp;gt; Services Bureau à distance &amp;gt; Client Connexion Bureau à distance</description>
+      <description>&lt;p&gt;L&amp;rsquo;utilisation du protocole UDP avec le RDS (Remote Desktop Service) peut parfois poser des problèmes de stabilité dans certaines conditions.
+Il peut être nécessaire de déactiver cette possibilité afin de forcer les clients RDS à n&amp;rsquo;utiliser que le protocole TCP.&lt;/p&gt;
+&lt;h3 id=&#34;désactivation-via-léditeur-de-stratégie-de-groupe-local&#34;&gt;Désactivation via l&amp;rsquo;éditeur de stratégie de groupe local:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Ouvrir l&amp;rsquo;éditeur de stratégie de groupe local depuis panneaux de configuration ou via le &lt;strong&gt;Éxécuter&lt;/strong&gt; avec &lt;code&gt;gpedit.msc&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se rendre dans &lt;strong&gt;Configuration ordinateur&lt;/strong&gt; &amp;gt; &lt;strong&gt;Modèle d&amp;rsquo;administration&lt;/strong&gt; &amp;gt; &lt;strong&gt;Composants Windows&lt;/strong&gt; &amp;gt; &lt;strong&gt;Services Bureau à distance&lt;/strong&gt; &amp;gt; &lt;strong&gt;Client Connexion Bureau à distance&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

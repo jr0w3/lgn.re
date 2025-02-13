@@ -4,21 +4,24 @@
     <title>Alpacat on LGN</title>
     <link>//localhost:1313/tags/alpacat/</link>
     <description>Recent content in Alpacat on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2025 20:09:35 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/alpacat/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 20:09:35 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/alpacat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installer Alpaca Sur Ubuntu</title>
       <link>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
       <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      
       <guid>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
-      <description>Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.
-Installation Installation de Flatpak
-sudo apt install flatpak Ajout du repository de Flathub
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo Installation de Alpaca
-flatpak install flathub com.jeffser.Alpaca Une fois l&amp;rsquo;installation terminée, si on ne trouve pas Alpaca dans le menu des application on peut l&amp;rsquo;ouvrir depuis un terminal avec la commande suivante:</description>
+      <description>&lt;p&gt;Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Installation de Flatpak&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install flatpak
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ajout du repository de Flathub&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Installation de Alpaca&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;flatpak install flathub com.jeffser.Alpaca
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Une fois l&amp;rsquo;installation terminée, si on ne trouve pas Alpaca dans le menu des application on peut l&amp;rsquo;ouvrir depuis un terminal avec la commande suivante:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

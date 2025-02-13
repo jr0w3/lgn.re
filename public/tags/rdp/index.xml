@@ -4,18 +4,18 @@
     <title>RDP on LGN</title>
     <link>//localhost:1313/tags/rdp/</link>
     <description>Recent content in RDP on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Sep 2023 16:27:20 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Sep 2023 16:27:20 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Désactiver l&#39;enregistrement des mots de passe du Bureau à distance</title>
       <link>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</link>
       <pubDate>Fri, 29 Sep 2023 16:27:20 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</guid>
-      <description>Pour des raisons de sécurité, il peutêtre utiles sur Windows d&amp;rsquo;empêcher les utilisateurs de mémoriser le mot de passe de leur compte pour une connexion Bureau à distance.
-Désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local Pour désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local, il vous suffit de vous rendre dans: Configuration ordinateur &amp;gt; Composants Windows &amp;gt; Service Bureau à distance &amp;gt; Client Connexion Bureau à distance, il ne vous restera plus alors qu&amp;rsquo;à activer le paramètre &amp;ldquo;Ne pas autoriser l&amp;rsquo;enregistrement des mots de passe&amp;rdquo;.</description>
+      <description>&lt;p&gt;Pour des raisons de sécurité, il peutêtre utiles sur Windows d&amp;rsquo;empêcher les utilisateurs de mémoriser le mot de passe de leur compte pour une connexion Bureau à distance.&lt;/p&gt;
+&lt;h4 id=&#34;désactiver-la-mémorisation-depuis-léditeur-de-stratégie-de-groupe-local&#34;&gt;Désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local&lt;/h4&gt;
+&lt;p&gt;Pour désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local, il vous suffit de vous rendre dans: &lt;strong&gt;Configuration ordinateur&lt;/strong&gt; &amp;gt; &lt;strong&gt;Composants Windows&lt;/strong&gt; &amp;gt; &lt;strong&gt;Service Bureau à distance&lt;/strong&gt; &amp;gt; &lt;strong&gt;Client Connexion Bureau à distance&lt;/strong&gt;, il ne vous restera plus alors qu&amp;rsquo;à activer le paramètre &amp;ldquo;&lt;strong&gt;Ne pas autoriser l&amp;rsquo;enregistrement des mots de passe&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

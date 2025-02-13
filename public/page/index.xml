@@ -4,18 +4,19 @@
     <title>Pages on LGN</title>
     <link>//localhost:1313/page/</link>
     <description>Recent content in Pages on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Oct 2023 07:02:57 +0200</lastBuildDate><atom:link href="//localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Oct 2023 07:02:57 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Politique de Commentaires</title>
       <link>//localhost:1313/page/comment-policy/</link>
       <pubDate>Mon, 09 Oct 2023 07:02:57 +0200</pubDate>
-      
       <guid>//localhost:1313/page/comment-policy/</guid>
-      <description>Bienvenue sur [Nom de votre Blog] ! J&amp;rsquo;apprécie votre participation à ma communauté et vos commentaires sur mes articles. Pour garantir un environnement respectueux et constructif pour tous mes lecteurs, j&amp;rsquo;ai établi les lignes directrices suivantes pour les commentaires sur mon blog :
-Respect Mutuel : Soyez respectueux envers les autres commentateurs, les auteurs et les personnes mentionnées dans les articles. Les commentaires offensants, insultants, haineux ou discriminatoires ne seront pas tolérés.</description>
+      <description>&lt;p&gt;Bienvenue sur [Nom de votre Blog] ! J&amp;rsquo;apprécie votre participation à ma communauté et vos commentaires sur mes articles. Pour garantir un environnement respectueux et constructif pour tous mes lecteurs, j&amp;rsquo;ai établi les lignes directrices suivantes pour les commentaires sur mon blog :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Respect Mutuel&lt;/strong&gt; : Soyez respectueux envers les autres commentateurs, les auteurs et les personnes mentionnées dans les articles. Les commentaires offensants, insultants, haineux ou discriminatoires ne seront pas tolérés.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,156 +4,202 @@
     <title>Posts on LGN</title>
     <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on LGN</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2025 20:09:35 +0100</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Feb 2025 17:04:39 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lister Les Sessions Smb Sur Windows</title>
+      <link>//localhost:1313/posts/2025/02/lister-les-sessions-smb-sur-windows/</link>
+      <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
+      <guid>//localhost:1313/posts/2025/02/lister-les-sessions-smb-sur-windows/</guid>
+      <description>&lt;h2 id=&#34;get-smbsession&#34;&gt;&lt;code&gt;Get-SmbSession&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Cette commande permet d&amp;rsquo;afficher les sessions SMB actives sur un serveur Windows. Elle liste les utilisateurs connectés ainsi que des informations comme le nom du client et l&amp;rsquo;état de la connexion.&lt;/p&gt;
+&lt;h2 id=&#34;get-smbsession--measure-objectcount&#34;&gt;&lt;code&gt;(Get-SmbSession | Measure-Object).Count&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Cette commande compte le nombre total de sessions SMB actives. Elle utilise &lt;code&gt;Measure-Object&lt;/code&gt; pour mesurer le nombre d&amp;rsquo;objets retournés par &lt;code&gt;Get-SmbSession&lt;/code&gt; et affiche uniquement le nombre total.&lt;/p&gt;
+&lt;h2 id=&#34;while-true-clear-host-get-smbsession--measure-object--select-object--expandproperty-count-start-sleep--seconds-2&#34;&gt;&lt;code&gt;while ($true) {Clear-Host; Get-SmbSession | Measure-Object | Select-Object -ExpandProperty Count; Start-Sleep -Seconds 2}&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Ce script exécute une boucle infinie qui :&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Installer Alpaca Sur Ubuntu</title>
       <link>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
       <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      
       <guid>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
-      <description>Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.
-Installation Installation de Flatpak
-sudo apt install flatpak Ajout du repository de Flathub
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo Installation de Alpaca
-flatpak install flathub com.jeffser.Alpaca Une fois l&amp;rsquo;installation terminée, si on ne trouve pas Alpaca dans le menu des application on peut l&amp;rsquo;ouvrir depuis un terminal avec la commande suivante:</description>
+      <description>&lt;p&gt;Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Installation de Flatpak&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install flatpak
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ajout du repository de Flathub&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Installation de Alpaca&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;flatpak install flathub com.jeffser.Alpaca
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Une fois l&amp;rsquo;installation terminée, si on ne trouve pas Alpaca dans le menu des application on peut l&amp;rsquo;ouvrir depuis un terminal avec la commande suivante:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Configurer L&#39;heure De L&#39;hote Dans Un Container Docker</title>
       <link>//localhost:1313/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</link>
       <pubDate>Fri, 17 Nov 2023 06:12:49 +0100</pubDate>
-      
       <guid>//localhost:1313/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</guid>
-      <description>Configuration de l&amp;rsquo;heure de l&amp;rsquo;hôte dans un conteneur Docker Lorsque vous travaillez avec des conteneurs Docker, il est crucial de garantir que l&amp;rsquo;heure du conteneur correspond à celle du système hôte pour assurer une synchronisation correcte et des horodatages précis. Heureusement, cela peut être réalisé en ajoutant les fichiers de configuration locaux (/etc/timezone et /etc/localtime) en tant que volumes dans votre conteneur Docker.
-Suivez ces étapes pour mettre en place cette configuration :</description>
+      <description>&lt;h1 id=&#34;configuration-de-lheure-de-lhôte-dans-un-conteneur-docker&#34;&gt;Configuration de l&amp;rsquo;heure de l&amp;rsquo;hôte dans un conteneur Docker&lt;/h1&gt;
+&lt;p&gt;Lorsque vous travaillez avec des conteneurs Docker, il est crucial de garantir que l&amp;rsquo;heure du conteneur correspond à celle du système hôte pour assurer une synchronisation correcte et des horodatages précis. Heureusement, cela peut être réalisé en ajoutant les fichiers de configuration locaux (/etc/timezone et /etc/localtime) en tant que volumes dans votre conteneur Docker.&lt;/p&gt;
+&lt;p&gt;Suivez ces étapes pour mettre en place cette configuration :&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ajouter Une Délégation à Un Groupe De Sécurité Sur Exchange OnPremise</title>
       <link>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</link>
       <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
-      
       <guid>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</guid>
-      <description>Récupération du GUID du groupe Pour commencer, il faut trouver le GUID du groupe. Depuis une console Exchange Mananagent Shell:
-Get-Group -Identity &amp;#34;Techniciens&amp;#34; | Select-Object Name, GUID Cela retourne :
-Name Guid ---- ---- Techniciens 1aXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX info: pour lister tous les groupes, il faut utiliser la commande sans préciser le -Identity &amp;quot;Nom&amp;quot;:
-Get-Group | Select-Object Name, GUID Récupération du ExchangeGUID de la boite sur laquelle mettre la délégation Comme pour le GUID, nous allons rechercher la boite et filtrer le ExchangeGUID.</description>
+      <description>&lt;h2 id=&#34;récupération-du-guid-du-groupe&#34;&gt;Récupération du GUID du groupe&lt;/h2&gt;
+&lt;p&gt;Pour commencer, il faut trouver le GUID du groupe.
+Depuis une console &lt;strong&gt;Exchange Mananagent Shell&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;Get-Group&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Identity&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Techniciens&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Select-Object&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GUID&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Cela retourne :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Name&lt;/span&gt;        &lt;span class=&#34;n&#34;&gt;Guid&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;----&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;----&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Techniciens&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;1aXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;info: pour lister tous les groupes, il faut utiliser la commande sans préciser le &lt;code&gt;-Identity &amp;quot;Nom&amp;quot;&lt;/code&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;Get-Group&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Select-Object&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GUID&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;récupération-du-exchangeguid-de-la-boite-sur-laquelle-mettre-la-délégation&#34;&gt;Récupération du ExchangeGUID de la boite sur laquelle mettre la délégation&lt;/h2&gt;
+&lt;p&gt;Comme pour le GUID, nous allons rechercher la boite et filtrer le &lt;strong&gt;ExchangeGUID&lt;/strong&gt;.
+Nous utilisons le &lt;code&gt;-Identity&lt;/code&gt; pour rechercher notre boite. On peut également rechercher avec le &lt;em&gt;sAMAccountName&lt;/em&gt;*:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>La Commande Base64</title>
       <link>//localhost:1313/posts/2023/11/la-commande-base64/</link>
       <pubDate>Wed, 08 Nov 2023 06:41:27 +0100</pubDate>
-      
       <guid>//localhost:1313/posts/2023/11/la-commande-base64/</guid>
-      <description>Comment utiliser le base64 avec fichier ou en ligne de commande direct Le base64 est un système de codage qui permet de représenter des données binaires sous forme de chaînes de caractères ASCII. Il est souvent utilisé pour transmettre des données qui ne sont pas compatibles avec certains protocoles ou formats, comme les images, les fichiers PDF, les courriels, etc.
-Pour utiliser le base64 avec fichier ou en ligne de commande direct, vous pouvez utiliser la commande base64 qui fait partie du paquet coreutils sur les systèmes Linux.</description>
+      <description>&lt;h1 id=&#34;comment-utiliser-le-base64-avec-fichier-ou-en-ligne-de-commande-direct&#34;&gt;Comment utiliser le base64 avec fichier ou en ligne de commande direct&lt;/h1&gt;
+&lt;p&gt;Le base64 est un système de codage qui permet de représenter des données binaires sous forme de chaînes de caractères ASCII. Il est souvent utilisé pour transmettre des données qui ne sont pas compatibles avec certains protocoles ou formats, comme les images, les fichiers PDF, les courriels, etc.&lt;/p&gt;
+&lt;p&gt;Pour utiliser le base64 avec fichier ou en ligne de commande direct, vous pouvez utiliser la commande base64 qui fait partie du paquet coreutils sur les systèmes Linux. Cette commande permet de coder ou de décoder des données en base64 en utilisant des options et des arguments.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>La Gestion D&#39;archive Tar</title>
       <link>//localhost:1313/posts/2023/10/la-gestion-darchive-tar/</link>
       <pubDate>Mon, 30 Oct 2023 06:30:02 +0100</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/la-gestion-darchive-tar/</guid>
-      <description>Créer une archive : Pour créer une archive sans compression, vous pouvez utiliser la commande suivante :
-tar -cvf archive.tar fichier1 fichier2 ... Par exemple, pour créer une archive appelée mon_archive.tar contenant les fichiers fichier1.txt et fichier2.txt, vous exécuteriez :
-tar -cvf mon_archive.tar fichier1.txt fichier2.txt Créer une archive avec plusieurs fichiers : Vous pouvez ajouter plusieurs fichiers à une archive en les spécifiant tous dans la commande tar :</description>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Créer une archive&lt;/strong&gt; :&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Pour créer une archive sans compression, vous pouvez utiliser la commande suivante :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tar -cvf archive.tar fichier1 fichier2 ...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Par exemple, pour créer une archive appelée &lt;code&gt;mon_archive.tar&lt;/code&gt; contenant les fichiers &lt;code&gt;fichier1.txt&lt;/code&gt; et &lt;code&gt;fichier2.txt&lt;/code&gt;, vous exécuteriez :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tar -cvf mon_archive.tar fichier1.txt fichier2.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Créer une archive avec plusieurs fichiers&lt;/strong&gt; :&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Vous pouvez ajouter plusieurs fichiers à une archive en les spécifiant tous dans la commande &lt;code&gt;tar&lt;/code&gt; :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tar -cvf archive.tar fichier1 fichier2 fichier3 ...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Ajouter un fichier à une archive existante&lt;/strong&gt; :&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Pour ajouter un fichier à une archive existante, vous pouvez utiliser la commande &lt;code&gt;tar&lt;/code&gt; avec l&amp;rsquo;option &lt;code&gt;-r&lt;/code&gt; :&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Désactiver l&#39;UDP Sur Les Clients RDS Windows</title>
       <link>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</link>
       <pubDate>Thu, 19 Oct 2023 12:11:20 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</guid>
-      <description>L&amp;rsquo;utilisation du protocole UDP avec le RDS (Remote Desktop Service) peut parfois poser des problèmes de stabilité dans certaines conditions. Il peut être nécessaire de déactiver cette possibilité afin de forcer les clients RDS à n&amp;rsquo;utiliser que le protocole TCP.
-Désactivation via l&amp;rsquo;éditeur de stratégie de groupe local: Ouvrir l&amp;rsquo;éditeur de stratégie de groupe local depuis panneaux de configuration ou via le Éxécuter avec gpedit.msc
-Se rendre dans Configuration ordinateur &amp;gt; Modèle d&amp;rsquo;administration &amp;gt; Composants Windows &amp;gt; Services Bureau à distance &amp;gt; Client Connexion Bureau à distance</description>
+      <description>&lt;p&gt;L&amp;rsquo;utilisation du protocole UDP avec le RDS (Remote Desktop Service) peut parfois poser des problèmes de stabilité dans certaines conditions.
+Il peut être nécessaire de déactiver cette possibilité afin de forcer les clients RDS à n&amp;rsquo;utiliser que le protocole TCP.&lt;/p&gt;
+&lt;h3 id=&#34;désactivation-via-léditeur-de-stratégie-de-groupe-local&#34;&gt;Désactivation via l&amp;rsquo;éditeur de stratégie de groupe local:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Ouvrir l&amp;rsquo;éditeur de stratégie de groupe local depuis panneaux de configuration ou via le &lt;strong&gt;Éxécuter&lt;/strong&gt; avec &lt;code&gt;gpedit.msc&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se rendre dans &lt;strong&gt;Configuration ordinateur&lt;/strong&gt; &amp;gt; &lt;strong&gt;Modèle d&amp;rsquo;administration&lt;/strong&gt; &amp;gt; &lt;strong&gt;Composants Windows&lt;/strong&gt; &amp;gt; &lt;strong&gt;Services Bureau à distance&lt;/strong&gt; &amp;gt; &lt;strong&gt;Client Connexion Bureau à distance&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Reinitialiser Le Mot De Passe Admin Portainer</title>
       <link>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</link>
       <pubDate>Mon, 16 Oct 2023 06:57:31 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</guid>
-      <description>Les développeurs de Portainer ont mis à disposition des utilisateurs un container à déployer en cas de perte de mot de passe.
-Pour commencer, on stop le container Portainer:
-docker ps Nous allons devoir récupérer l&amp;rsquo;id du container pour le stopper:
-CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES 71d1a51fd820 portainer/portainer-ce:latest &amp;#34;/portainer&amp;#34; 2 minutes ago Up 2 minutes 0.0.0.0:8000-&amp;gt;8000/tcp, :::8000-&amp;gt;8000/tcp, 0.0.0.0:9443-&amp;gt;9443/tcp, :::9443-&amp;gt;9443/tcp, 9000/tcp portainer L&amp;rsquo;id est 71d1a51fd820.
-Pour stopper le container, nous allons utiliser al commande docker stop ID:</description>
+      <description>&lt;p&gt;Les développeurs de Portainer ont mis à disposition des utilisateurs un container à déployer en cas de perte de mot de passe.&lt;/p&gt;
+&lt;p&gt;Pour commencer, on stop le container Portainer:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker ps
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nous allons devoir récupérer l&amp;rsquo;id du container pour le stopper:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;CONTAINER ID   IMAGE                           COMMAND                  CREATED         STATUS                    PORTS                                                                                            NAMES
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;71d1a51fd820   portainer/portainer-ce:latest   &lt;span class=&#34;s2&#34;&gt;&amp;#34;/portainer&amp;#34;&lt;/span&gt;             &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; minutes ago   Up &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; minutes              0.0.0.0:8000-&amp;gt;8000/tcp, :::8000-&amp;gt;8000/tcp, 0.0.0.0:9443-&amp;gt;9443/tcp, :::9443-&amp;gt;9443/tcp, 9000/tcp   portainer
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;L&amp;rsquo;id est &lt;code&gt;71d1a51fd820&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Pour stopper le container, nous allons utiliser al commande &lt;code&gt;docker stop ID&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Monter Un Répertoire Distant via Un Tunnel Ssh</title>
       <link>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</link>
       <pubDate>Thu, 12 Oct 2023 06:52:45 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</guid>
-      <description>SSHFS est un outil en ligne de commande qui permet de monter un système de fichier distant via SSH et plus précisément en utilisant SFTP. Sachez que SFTP et actif par défaut sur la plupart des serveurs OpenSSH.
-Installer SSHFS: apt install sshfs Monter un répertoire: sshfs [user@]hôte:[Dossier] PointDeMontage [options] Si l&amp;rsquo;hôte est une adresse IPv6, elle doit être placée entre crochets.
-Voici un exemple pour monter le dossier /home/john/tool présent sur le serveur distant 192.</description>
+      <description>&lt;p&gt;&lt;code&gt;SSHFS&lt;/code&gt; est un outil en ligne de commande qui permet de monter un système de fichier distant via &lt;code&gt;SSH&lt;/code&gt; et plus précisément en utilisant &lt;code&gt;SFTP&lt;/code&gt;.
+Sachez que &lt;code&gt;SFTP&lt;/code&gt; et actif par défaut sur la plupart des serveurs OpenSSH.&lt;/p&gt;
+&lt;h3 id=&#34;installer-sshfs&#34;&gt;Installer SSHFS:&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;apt install sshfs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;monter-un-répertoire&#34;&gt;Monter un répertoire:&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sshfs &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;user@&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;hôte:&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Dossier&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; PointDeMontage &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;options&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Si l&amp;rsquo;hôte est une adresse IPv6, elle doit être placée entre crochets.&lt;/p&gt;
+&lt;p&gt;Voici un exemple pour monter le dossier &lt;code&gt;/home/john/tool&lt;/code&gt; présent sur le serveur distant &lt;code&gt;192.168.10.20&lt;/code&gt; vers le dossier local &lt;code&gt;~/tool&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Planifier Un Redemarrage Sous Linux</title>
       <link>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</link>
       <pubDate>Wed, 11 Oct 2023 07:17:22 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</guid>
-      <description>Une petite note avec des exemples pour utiliser la commande shutdown afin de planifier un redémarrage de l&amp;rsquo;OS.
-La commande pour un redémarrage standard se fait avec le paramètre -r
-Redémarrage du système:
-shutdown -r now Arrêt du système:
-shutdown -P now Redémarrage du système à 17:30
-shutdown -r 17:30 Redémarrage du système dans 30 minutes:
-shutdown -r +30 Annuler un arrêt/redémarrage planifié:
-shutdown -c Lister les arrêts/redémarrages planifiés avec systemd:</description>
+      <description>&lt;p&gt;Une petite note avec des exemples pour utiliser la commande &lt;code&gt;shutdown&lt;/code&gt; afin de planifier un redémarrage de l&amp;rsquo;OS.&lt;/p&gt;
+&lt;p&gt;La commande pour un redémarrage standard se fait avec le paramètre &lt;code&gt;-r&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Redémarrage du système:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown -r now
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Arrêt du système:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown -P now
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Redémarrage du système à 17:30&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown -r 17:30
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Redémarrage du système dans 30 minutes:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown -r +30
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Annuler un arrêt/redémarrage planifié:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shutdown -c
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Lister les arrêts/redémarrages planifiés avec &lt;code&gt;systemd&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Comment Obtenir Le Lien De La Derniere Release Dun Repo Github</title>
       <link>//localhost:1313/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</link>
       <pubDate>Sun, 08 Oct 2023 18:42:55 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</guid>
-      <description>Introduction Lorsque vous souhaitez télécharger la dernière version d’un logiciel open-source à partir de son repository Github, vous devez d’abord trouver le lien de téléchargement pour la dernière release disponible. Dans cet article, nous allons vous montrer comment trouver ce lien de téléchargement à l’aide de l’API Github.
-Utilisation de l’API Github pour récupérer les informations de version La première étape consiste à utiliser l’API Github pour récupérer les informations sur la dernière release du repository.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Lorsque vous souhaitez télécharger la dernière version d’un logiciel open-source à partir de son repository Github, vous devez d’abord trouver le lien de téléchargement pour la dernière release disponible. Dans cet article, nous allons vous montrer comment trouver ce lien de téléchargement à l’aide de l’API Github.&lt;/p&gt;
+&lt;h2 id=&#34;utilisation-de-lapi-github-pour-récupérer-les-informations-de-version&#34;&gt;Utilisation de l’API Github pour récupérer les informations de version&lt;/h2&gt;
+&lt;p&gt;La première étape consiste à utiliser l’API Github pour récupérer les informations sur la dernière release du repository. Pour ce faire, nous pouvons utiliser l’URL suivante :&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>OpenVPN error:0A00018E:SSL routines::ca md too weak</title>
       <link>//localhost:1313/posts/2023/10/openvpn-error0a00018essl-routinesca-md-too-weak/</link>
       <pubDate>Sun, 08 Oct 2023 16:29:57 +0000</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/openvpn-error0a00018essl-routinesca-md-too-weak/</guid>
-      <description>Introduction L’erreur « OpenSSL: error:0A00018E:SSL routines::ca md too weak » est un message d’erreur qui apparaît lorsqu’OpenSSL, une bibliothèque de cryptographie utilisée pour sécuriser les connexions réseau, détecte un algorithme de hachage CA (Certificate Authority) trop faible. Cela signifie que la sécurité de la connexion est compromise et qu’il peut y avoir un risque de compromission de la confidentialité et de l’intégrité des données échangées.
-En termes plus simples, cette erreur se produit lorsqu’un certificat utilisé pour sécuriser une connexion VPN ou un autre type de connexion réseau utilise un algorithme de hachage CA faible, qui peut être facilement compromis par des attaquants malveillants.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;L’erreur « OpenSSL: error:0A00018E:SSL routines::ca md too weak » est un message d’erreur qui apparaît lorsqu’OpenSSL, une bibliothèque de cryptographie utilisée pour sécuriser les connexions réseau, détecte un algorithme de hachage CA (Certificate Authority) trop faible. Cela signifie que la sécurité de la connexion est compromise et qu’il peut y avoir un risque de compromission de la confidentialité et de l’intégrité des données échangées.&lt;/p&gt;
+&lt;p&gt;En termes plus simples, cette erreur se produit lorsqu’un certificat utilisé pour sécuriser une connexion VPN ou un autre type de connexion réseau utilise un algorithme de hachage CA faible, qui peut être facilement compromis par des attaquants malveillants. Cela peut se produire si le certificat a été généré il y a longtemps et qu’il n’a pas été mis à jour pour répondre aux normes de sécurité plus récentes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cloner un dépôt Git avec ses sous-modules</title>
       <link>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</link>
       <pubDate>Sat, 07 Oct 2023 07:42:11 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</guid>
-      <description>Cloner un depôt Git avec ses sous-modules Vous pouvez cloner un dépôt Git avec des sous-modules en utilisant la commande git clone avec l&amp;rsquo;option --recurse-submodules. Voici comment faire :
-Copiez l&amp;rsquo;URL du dépôt : Rendez-vous sur la page du dépôt (par exemple sur GitHub) que vous souhaitez cloner. Cliquez sur le bouton &amp;ldquo;Code&amp;rdquo; et copiez l&amp;rsquo;URL du dépôt principal.
-Ouvrez votre terminal : Ouvrez un terminal sur votre système d&amp;rsquo;exploitation.</description>
+      <description>&lt;h2 id=&#34;cloner-un-depôt-git-avec-ses-sous-modules&#34;&gt;Cloner un depôt Git avec ses sous-modules&lt;/h2&gt;
+&lt;p&gt;Vous pouvez cloner un dépôt Git avec des sous-modules en utilisant la commande &lt;code&gt;git clone&lt;/code&gt; avec l&amp;rsquo;option &lt;code&gt;--recurse-submodules&lt;/code&gt;. Voici comment faire :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Copiez l&amp;rsquo;URL du dépôt&lt;/strong&gt; : Rendez-vous sur la page du dépôt (par exemple sur GitHub) que vous souhaitez cloner. Cliquez sur le bouton &amp;ldquo;Code&amp;rdquo; et copiez l&amp;rsquo;URL du dépôt principal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ouvrez votre terminal&lt;/strong&gt; : Ouvrez un terminal sur votre système d&amp;rsquo;exploitation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Utilisez la commande &lt;code&gt;git clone&lt;/code&gt; avec &lt;code&gt;--recurse-submodules&lt;/code&gt;&lt;/strong&gt; : Utilisez la commande &lt;code&gt;git clone&lt;/code&gt; en spécifiant l&amp;rsquo;URL du dépôt principal et l&amp;rsquo;option &lt;code&gt;--recurse-submodules&lt;/code&gt;. Par exemple :&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Désactiver l&#39;enregistrement des mots de passe du Bureau à distance</title>
       <link>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</link>
       <pubDate>Fri, 29 Sep 2023 16:27:20 +0200</pubDate>
-      
       <guid>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</guid>
-      <description>Pour des raisons de sécurité, il peutêtre utiles sur Windows d&amp;rsquo;empêcher les utilisateurs de mémoriser le mot de passe de leur compte pour une connexion Bureau à distance.
-Désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local Pour désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local, il vous suffit de vous rendre dans: Configuration ordinateur &amp;gt; Composants Windows &amp;gt; Service Bureau à distance &amp;gt; Client Connexion Bureau à distance, il ne vous restera plus alors qu&amp;rsquo;à activer le paramètre &amp;ldquo;Ne pas autoriser l&amp;rsquo;enregistrement des mots de passe&amp;rdquo;.</description>
+      <description>&lt;p&gt;Pour des raisons de sécurité, il peutêtre utiles sur Windows d&amp;rsquo;empêcher les utilisateurs de mémoriser le mot de passe de leur compte pour une connexion Bureau à distance.&lt;/p&gt;
+&lt;h4 id=&#34;désactiver-la-mémorisation-depuis-léditeur-de-stratégie-de-groupe-local&#34;&gt;Désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local&lt;/h4&gt;
+&lt;p&gt;Pour désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local, il vous suffit de vous rendre dans: &lt;strong&gt;Configuration ordinateur&lt;/strong&gt; &amp;gt; &lt;strong&gt;Composants Windows&lt;/strong&gt; &amp;gt; &lt;strong&gt;Service Bureau à distance&lt;/strong&gt; &amp;gt; &lt;strong&gt;Client Connexion Bureau à distance&lt;/strong&gt;, il ne vous restera plus alors qu&amp;rsquo;à activer le paramètre &amp;ldquo;&lt;strong&gt;Ne pas autoriser l&amp;rsquo;enregistrement des mots de passe&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
