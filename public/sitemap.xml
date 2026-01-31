@@ -2,165 +2,168 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>lgn.re/categories/</loc>
+    <lastmod>2026-01-31T21:08:00+01:00</lastmod>
+  </url><url>
+    <loc>lgn.re/posts/2025/02/les-differents-types-de-cles-ssh/</loc>
+    <lastmod>2026-01-31T21:08:00+01:00</lastmod>
+  </url><url>
+    <loc>lgn.re/</loc>
+    <lastmod>2026-01-31T21:08:00+01:00</lastmod>
+  </url><url>
+    <loc>lgn.re/categories/linux/</loc>
+    <lastmod>2026-01-31T21:08:00+01:00</lastmod>
+  </url><url>
+    <loc>lgn.re/tags/linux/</loc>
+    <lastmod>2026-01-31T21:08:00+01:00</lastmod>
+  </url><url>
+    <loc>lgn.re/posts/</loc>
+    <lastmod>2026-01-31T21:08:00+01:00</lastmod>
+  </url><url>
+    <loc>lgn.re/categories/ssh/</loc>
+    <lastmod>2026-01-31T21:08:00+01:00</lastmod>
+  </url><url>
+    <loc>lgn.re/tags/ssh/</loc>
+    <lastmod>2026-01-31T21:08:00+01:00</lastmod>
+  </url><url>
+    <loc>lgn.re/tags/</loc>
+    <lastmod>2026-01-31T21:08:00+01:00</lastmod>
+  </url><url>
+    <loc>lgn.re/posts/2025/02/lister-les-sessions-smb-sur-windows/</loc>
     <lastmod>2025-02-13T17:04:39+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>lgn.re/categories/smb/</loc>
     <lastmod>2025-02-13T17:04:39+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2025/02/lister-les-sessions-smb-sur-windows/</loc>
+    <loc>lgn.re/tags/smb/</loc>
     <lastmod>2025-02-13T17:04:39+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>lgn.re/categories/windows/</loc>
     <lastmod>2025-02-13T17:04:39+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/smb/</loc>
+    <loc>lgn.re/tags/windows/</loc>
     <lastmod>2025-02-13T17:04:39+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/smb/</loc>
-    <lastmod>2025-02-13T17:04:39+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-02-13T17:04:39+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/windows/</loc>
-    <lastmod>2025-02-13T17:04:39+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/windows/</loc>
-    <lastmod>2025-02-13T17:04:39+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/alpacat/</loc>
+    <loc>lgn.re/tags/alpacat/</loc>
     <lastmod>2025-02-06T20:09:35+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</loc>
+    <loc>lgn.re/posts/2025/02/installer-alpaca-sur-ubuntu/</loc>
     <lastmod>2025-02-06T20:09:35+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/linux/</loc>
+    <loc>lgn.re/categories/llm/</loc>
     <lastmod>2025-02-06T20:09:35+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/linux/</loc>
+    <loc>lgn.re/tags/llm/</loc>
     <lastmod>2025-02-06T20:09:35+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/llm/</loc>
-    <lastmod>2025-02-06T20:09:35+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/llm/</loc>
-    <lastmod>2025-02-06T20:09:35+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</loc>
+    <loc>lgn.re/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</loc>
     <lastmod>2023-11-17T06:12:49+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/docker/</loc>
+    <loc>lgn.re/categories/docker/</loc>
     <lastmod>2023-11-17T06:12:49+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/docker/</loc>
+    <loc>lgn.re/tags/docker/</loc>
     <lastmod>2023-11-17T06:12:49+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</loc>
+    <loc>lgn.re/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</loc>
     <lastmod>2023-11-10T16:43:37+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/exchange/</loc>
+    <loc>lgn.re/categories/exchange/</loc>
     <lastmod>2023-11-10T16:43:37+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/exchange/</loc>
+    <loc>lgn.re/tags/exchange/</loc>
     <lastmod>2023-11-10T16:43:37+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/powershell/</loc>
+    <loc>lgn.re/categories/powershell/</loc>
     <lastmod>2023-11-10T16:43:37+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/powershell/</loc>
+    <loc>lgn.re/tags/powershell/</loc>
     <lastmod>2023-11-10T16:43:37+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/base64/</loc>
+    <loc>lgn.re/tags/base64/</loc>
     <lastmod>2023-11-08T06:41:27+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/howto/</loc>
+    <loc>lgn.re/categories/howto/</loc>
     <lastmod>2023-11-08T06:41:27+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/11/la-commande-base64/</loc>
+    <loc>lgn.re/posts/2023/11/la-commande-base64/</loc>
     <lastmod>2023-11-08T06:41:27+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/10/la-gestion-darchive-tar/</loc>
+    <loc>lgn.re/posts/2023/10/la-gestion-darchive-tar/</loc>
     <lastmod>2023-10-30T06:30:02+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</loc>
+    <loc>lgn.re/posts/2023/10/desactiver-ludp-sur-les-client-rds/</loc>
     <lastmod>2023-10-19T12:11:20+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/rds/</loc>
+    <loc>lgn.re/tags/rds/</loc>
     <lastmod>2023-10-19T12:11:20+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/udp/</loc>
+    <loc>lgn.re/tags/udp/</loc>
     <lastmod>2023-10-19T12:11:20+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/portainer/</loc>
+    <loc>lgn.re/tags/portainer/</loc>
     <lastmod>2023-10-16T06:57:31+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</loc>
+    <loc>lgn.re/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</loc>
     <lastmod>2023-10-16T06:57:31+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</loc>
+    <loc>lgn.re/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</loc>
     <lastmod>2023-10-12T06:52:45+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/mount/</loc>
+    <loc>lgn.re/tags/mount/</loc>
     <lastmod>2023-10-12T06:52:45+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ssh/</loc>
-    <lastmod>2023-10-12T06:52:45+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/ssh/</loc>
-    <lastmod>2023-10-12T06:52:45+02:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/cmd/</loc>
+    <loc>lgn.re/categories/cmd/</loc>
     <lastmod>2023-10-11T07:17:22+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</loc>
+    <loc>lgn.re/posts/2023/10/planifier-un-redemarrage-sous-linux/</loc>
     <lastmod>2023-10-11T07:17:22+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/shedule/</loc>
+    <loc>lgn.re/tags/shedule/</loc>
     <lastmod>2023-10-11T07:17:22+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/shutdown/</loc>
+    <loc>lgn.re/tags/shutdown/</loc>
     <lastmod>2023-10-11T07:17:22+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/page/</loc>
+    <loc>lgn.re/page/</loc>
     <lastmod>2023-10-09T07:02:57+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/page/comment-policy/</loc>
+    <loc>lgn.re/page/comment-policy/</loc>
     <lastmod>2023-10-09T07:02:57+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</loc>
+    <loc>lgn.re/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</loc>
     <lastmod>2023-10-08T18:42:55+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/github/</loc>
+    <loc>lgn.re/tags/github/</loc>
     <lastmod>2023-10-08T18:42:55+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/openssl/</loc>
+    <loc>lgn.re/tags/openssl/</loc>
     <lastmod>2023-10-08T16:29:57+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/openvpn/</loc>
+    <loc>lgn.re/tags/openvpn/</loc>
     <lastmod>2023-10-08T16:29:57+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/openvpn/</loc>
+    <loc>lgn.re/categories/openvpn/</loc>
     <lastmod>2023-10-08T16:29:57+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/10/openvpn-error0a00018essl-routinesca-md-too-weak/</loc>
+    <loc>lgn.re/posts/2023/10/openvpn-error0a00018essl-routinesca-md-too-weak/</loc>
     <lastmod>2023-10-08T16:29:57+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</loc>
+    <loc>lgn.re/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</loc>
     <lastmod>2023-10-07T07:42:11+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/git/</loc>
+    <loc>lgn.re/categories/git/</loc>
     <lastmod>2023-10-07T07:42:11+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/git/</loc>
+    <loc>lgn.re/tags/git/</loc>
     <lastmod>2023-10-07T07:42:11+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</loc>
+    <loc>lgn.re/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</loc>
     <lastmod>2023-09-29T16:27:20+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/rdp/</loc>
+    <loc>lgn.re/tags/rdp/</loc>
     <lastmod>2023-09-29T16:27:20+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/archives/</loc>
+    <loc>lgn.re/archives/</loc>
   </url>
 </urlset>

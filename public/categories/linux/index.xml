@@ -2,17 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on LGN</title>
-    <link>//localhost:1313/categories/linux/</link>
+    <link>lgn.re/categories/linux/</link>
     <description>Recent content in Linux on LGN</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2025 20:09:35 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jan 2026 21:08:00 +0100</lastBuildDate>
+    <atom:link href="lgn.re/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les différents types de clés SSH</title>
+      <link>lgn.re/posts/2025/02/les-differents-types-de-cles-ssh/</link>
+      <pubDate>Sat, 31 Jan 2026 21:08:00 +0100</pubDate>
+      <guid>lgn.re/posts/2025/02/les-differents-types-de-cles-ssh/</guid>
+      <description>&lt;h2 id=&#34;générer-un-clé-ssh&#34;&gt;Générer un clé ssh&lt;/h2&gt;
+&lt;p&gt;Pour Générer une clé SSH, on utilise la commande :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-keygen -t &amp;lt;type&amp;gt; -b &amp;lt;bits&amp;gt; -C &lt;span class=&#34;s2&#34;&gt;&amp;#34;votre_email@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-t &amp;lt;type&amp;gt;&lt;/code&gt; : le type de clé à générer (rsa, ed25519, ecdsa, dsa)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-b &amp;lt;bits&amp;gt;&lt;/code&gt; : la taille de la clé en bits (obligatoire pour RSA et ECDSA, ignorée pour Ed25519)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-C&lt;/code&gt; : un commentaire, souvent votre email pour identifier la clé&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;types-de-clés-ssh&#34;&gt;Types de clés SSH&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Type&lt;/th&gt;
+          &lt;th&gt;Points forts&lt;/th&gt;
+          &lt;th&gt;Points faibles / Notes&lt;/th&gt;
+          &lt;th&gt;Commande exemple&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Ed25519&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Moderne, rapide, sécurisée&lt;/td&gt;
+          &lt;td&gt;Taille fixe, recommandé&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;ssh-keygen -t ed25519 -C &amp;quot;votre_email@example.com&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;RSA&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Très compatible&lt;/td&gt;
+          &lt;td&gt;Plus lent, utilisez 4096 bits&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;ssh-keygen -t rsa -b 4096 -C &amp;quot;votre_email@example.com&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ECDSA&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Rapide, basé sur courbes elliptiques&lt;/td&gt;
+          &lt;td&gt;Moins courant qu’Ed25519&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;ssh-keygen -t ecdsa -b 521 -C &amp;quot;votre_email@example.com&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;DSA&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Ancien&lt;/td&gt;
+          &lt;td&gt;⚠️ Déconseillé aujourd’hui&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;ssh-keygen -t dsa -C &amp;quot;votre_email@example.com&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
     <item>
       <title>Installer Alpaca Sur Ubuntu</title>
-      <link>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
+      <link>lgn.re/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
       <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      <guid>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
+      <guid>lgn.re/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
       <description>&lt;p&gt;Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Installation de Flatpak&lt;/p&gt;
@@ -25,18 +76,18 @@
     </item>
     <item>
       <title>La Commande Base64</title>
-      <link>//localhost:1313/posts/2023/11/la-commande-base64/</link>
+      <link>lgn.re/posts/2023/11/la-commande-base64/</link>
       <pubDate>Wed, 08 Nov 2023 06:41:27 +0100</pubDate>
-      <guid>//localhost:1313/posts/2023/11/la-commande-base64/</guid>
+      <guid>lgn.re/posts/2023/11/la-commande-base64/</guid>
       <description>&lt;h1 id=&#34;comment-utiliser-le-base64-avec-fichier-ou-en-ligne-de-commande-direct&#34;&gt;Comment utiliser le base64 avec fichier ou en ligne de commande direct&lt;/h1&gt;
 &lt;p&gt;Le base64 est un système de codage qui permet de représenter des données binaires sous forme de chaînes de caractères ASCII. Il est souvent utilisé pour transmettre des données qui ne sont pas compatibles avec certains protocoles ou formats, comme les images, les fichiers PDF, les courriels, etc.&lt;/p&gt;
 &lt;p&gt;Pour utiliser le base64 avec fichier ou en ligne de commande direct, vous pouvez utiliser la commande base64 qui fait partie du paquet coreutils sur les systèmes Linux. Cette commande permet de coder ou de décoder des données en base64 en utilisant des options et des arguments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reinitialiser Le Mot De Passe Admin Portainer</title>
-      <link>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</link>
+      <link>lgn.re/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</link>
       <pubDate>Mon, 16 Oct 2023 06:57:31 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</guid>
+      <guid>lgn.re/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</guid>
       <description>&lt;p&gt;Les développeurs de Portainer ont mis à disposition des utilisateurs un container à déployer en cas de perte de mot de passe.&lt;/p&gt;
 &lt;p&gt;Pour commencer, on stop le container Portainer:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker ps
@@ -48,9 +99,9 @@
     </item>
     <item>
       <title>Planifier Un Redemarrage Sous Linux</title>
-      <link>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</link>
+      <link>lgn.re/posts/2023/10/planifier-un-redemarrage-sous-linux/</link>
       <pubDate>Wed, 11 Oct 2023 07:17:22 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</guid>
+      <guid>lgn.re/posts/2023/10/planifier-un-redemarrage-sous-linux/</guid>
       <description>&lt;p&gt;Une petite note avec des exemples pour utiliser la commande &lt;code&gt;shutdown&lt;/code&gt; afin de planifier un redémarrage de l&amp;rsquo;OS.&lt;/p&gt;
 &lt;p&gt;La commande pour un redémarrage standard se fait avec le paramètre &lt;code&gt;-r&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Redémarrage du système:&lt;/p&gt;

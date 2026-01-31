@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on LGN</title>
-    <link>//localhost:1313/categories/</link>
+    <link>lgn.re/categories/</link>
     <description>Recent content in Categories on LGN</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Feb 2025 17:04:39 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SMB</title>
-      <link>//localhost:1313/categories/smb/</link>
-      <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
-      <guid>//localhost:1313/categories/smb/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windows</title>
-      <link>//localhost:1313/categories/windows/</link>
-      <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
-      <guid>//localhost:1313/categories/windows/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Sat, 31 Jan 2026 21:08:00 +0100</lastBuildDate>
+    <atom:link href="lgn.re/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
-      <link>//localhost:1313/categories/linux/</link>
-      <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      <guid>//localhost:1313/categories/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LLM</title>
-      <link>//localhost:1313/categories/llm/</link>
-      <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      <guid>//localhost:1313/categories/llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>//localhost:1313/categories/docker/</link>
-      <pubDate>Fri, 17 Nov 2023 06:12:49 +0100</pubDate>
-      <guid>//localhost:1313/categories/docker/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Exchange</title>
-      <link>//localhost:1313/categories/exchange/</link>
-      <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
-      <guid>//localhost:1313/categories/exchange/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Powershell</title>
-      <link>//localhost:1313/categories/powershell/</link>
-      <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
-      <guid>//localhost:1313/categories/powershell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HowTo</title>
-      <link>//localhost:1313/categories/howto/</link>
-      <pubDate>Wed, 08 Nov 2023 06:41:27 +0100</pubDate>
-      <guid>//localhost:1313/categories/howto/</guid>
+      <link>lgn.re/categories/linux/</link>
+      <pubDate>Sat, 31 Jan 2026 21:08:00 +0100</pubDate>
+      <guid>lgn.re/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>SSH</title>
-      <link>//localhost:1313/categories/ssh/</link>
-      <pubDate>Thu, 12 Oct 2023 06:52:45 +0200</pubDate>
-      <guid>//localhost:1313/categories/ssh/</guid>
+      <link>lgn.re/categories/ssh/</link>
+      <pubDate>Sat, 31 Jan 2026 21:08:00 +0100</pubDate>
+      <guid>lgn.re/categories/ssh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SMB</title>
+      <link>lgn.re/categories/smb/</link>
+      <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
+      <guid>lgn.re/categories/smb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>lgn.re/categories/windows/</link>
+      <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
+      <guid>lgn.re/categories/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>lgn.re/categories/llm/</link>
+      <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
+      <guid>lgn.re/categories/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>lgn.re/categories/docker/</link>
+      <pubDate>Fri, 17 Nov 2023 06:12:49 +0100</pubDate>
+      <guid>lgn.re/categories/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exchange</title>
+      <link>lgn.re/categories/exchange/</link>
+      <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
+      <guid>lgn.re/categories/exchange/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powershell</title>
+      <link>lgn.re/categories/powershell/</link>
+      <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
+      <guid>lgn.re/categories/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HowTo</title>
+      <link>lgn.re/categories/howto/</link>
+      <pubDate>Wed, 08 Nov 2023 06:41:27 +0100</pubDate>
+      <guid>lgn.re/categories/howto/</guid>
       <description></description>
     </item>
     <item>
       <title>Cmd</title>
-      <link>//localhost:1313/categories/cmd/</link>
+      <link>lgn.re/categories/cmd/</link>
       <pubDate>Wed, 11 Oct 2023 07:17:22 +0200</pubDate>
-      <guid>//localhost:1313/categories/cmd/</guid>
+      <guid>lgn.re/categories/cmd/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenVPN</title>
-      <link>//localhost:1313/categories/openvpn/</link>
+      <link>lgn.re/categories/openvpn/</link>
       <pubDate>Sun, 08 Oct 2023 16:29:57 +0000</pubDate>
-      <guid>//localhost:1313/categories/openvpn/</guid>
+      <guid>lgn.re/categories/openvpn/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>//localhost:1313/categories/git/</link>
+      <link>lgn.re/categories/git/</link>
       <pubDate>Sat, 07 Oct 2023 07:42:11 +0200</pubDate>
-      <guid>//localhost:1313/categories/git/</guid>
+      <guid>lgn.re/categories/git/</guid>
       <description></description>
     </item>
   </channel>

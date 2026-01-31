@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Git on LGN</title>
-    <link>//localhost:1313/categories/git/</link>
+    <link>lgn.re/categories/git/</link>
     <description>Recent content in Git on LGN</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Oct 2023 07:42:11 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="lgn.re/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloner un dépôt Git avec ses sous-modules</title>
-      <link>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</link>
+      <link>lgn.re/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</link>
       <pubDate>Sat, 07 Oct 2023 07:42:11 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</guid>
+      <guid>lgn.re/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</guid>
       <description>&lt;h2 id=&#34;cloner-un-depôt-git-avec-ses-sous-modules&#34;&gt;Cloner un depôt Git avec ses sous-modules&lt;/h2&gt;
 &lt;p&gt;Vous pouvez cloner un dépôt Git avec des sous-modules en utilisant la commande &lt;code&gt;git clone&lt;/code&gt; avec l&amp;rsquo;option &lt;code&gt;--recurse-submodules&lt;/code&gt;. Voici comment faire :&lt;/p&gt;
 &lt;ol&gt;

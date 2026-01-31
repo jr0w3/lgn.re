@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SMB on LGN</title>
-    <link>//localhost:1313/categories/smb/</link>
+    <link>lgn.re/categories/smb/</link>
     <description>Recent content in SMB on LGN</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 13 Feb 2025 17:04:39 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/smb/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="lgn.re/categories/smb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lister Les Sessions Smb Sur Windows</title>
-      <link>//localhost:1313/posts/2025/02/lister-les-sessions-smb-sur-windows/</link>
+      <link>lgn.re/posts/2025/02/lister-les-sessions-smb-sur-windows/</link>
       <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
-      <guid>//localhost:1313/posts/2025/02/lister-les-sessions-smb-sur-windows/</guid>
+      <guid>lgn.re/posts/2025/02/lister-les-sessions-smb-sur-windows/</guid>
       <description>&lt;h2 id=&#34;get-smbsession&#34;&gt;&lt;code&gt;Get-SmbSession&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Cette commande permet d&amp;rsquo;afficher les sessions SMB actives sur un serveur Windows. Elle liste les utilisateurs connectés ainsi que des informations comme le nom du client et l&amp;rsquo;état de la connexion.&lt;/p&gt;
 &lt;h2 id=&#34;get-smbsession--measure-objectcount&#34;&gt;&lt;code&gt;(Get-SmbSession | Measure-Object).Count&lt;/code&gt;&lt;/h2&gt;

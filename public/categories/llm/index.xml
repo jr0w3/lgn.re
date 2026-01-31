@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LLM on LGN</title>
-    <link>//localhost:1313/categories/llm/</link>
+    <link>lgn.re/categories/llm/</link>
     <description>Recent content in LLM on LGN</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 06 Feb 2025 20:09:35 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/llm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="lgn.re/categories/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installer Alpaca Sur Ubuntu</title>
-      <link>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
+      <link>lgn.re/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
       <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      <guid>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
+      <guid>lgn.re/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
       <description>&lt;p&gt;Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Installation de Flatpak&lt;/p&gt;

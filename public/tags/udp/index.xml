@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>UDP on LGN</title>
-    <link>//localhost:1313/tags/udp/</link>
+    <link>lgn.re/tags/udp/</link>
     <description>Recent content in UDP on LGN</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 19 Oct 2023 12:11:20 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/udp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="lgn.re/tags/udp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Désactiver l&#39;UDP Sur Les Clients RDS Windows</title>
-      <link>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</link>
+      <link>lgn.re/posts/2023/10/desactiver-ludp-sur-les-client-rds/</link>
       <pubDate>Thu, 19 Oct 2023 12:11:20 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</guid>
+      <guid>lgn.re/posts/2023/10/desactiver-ludp-sur-les-client-rds/</guid>
       <description>&lt;p&gt;L&amp;rsquo;utilisation du protocole UDP avec le RDS (Remote Desktop Service) peut parfois poser des problèmes de stabilité dans certaines conditions.
 Il peut être nécessaire de déactiver cette possibilité afin de forcer les clients RDS à n&amp;rsquo;utiliser que le protocole TCP.&lt;/p&gt;
 &lt;h3 id=&#34;désactivation-via-léditeur-de-stratégie-de-groupe-local&#34;&gt;Désactivation via l&amp;rsquo;éditeur de stratégie de groupe local:&lt;/h3&gt;

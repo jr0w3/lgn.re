@@ -2,157 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on LGN</title>
-    <link>//localhost:1313/tags/</link>
+    <link>lgn.re/tags/</link>
     <description>Recent content in Tags on LGN</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Feb 2025 17:04:39 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SMB</title>
-      <link>//localhost:1313/tags/smb/</link>
-      <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
-      <guid>//localhost:1313/tags/smb/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windows</title>
-      <link>//localhost:1313/tags/windows/</link>
-      <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
-      <guid>//localhost:1313/tags/windows/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Alpacat</title>
-      <link>//localhost:1313/tags/alpacat/</link>
-      <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      <guid>//localhost:1313/tags/alpacat/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Sat, 31 Jan 2026 21:08:00 +0100</lastBuildDate>
+    <atom:link href="lgn.re/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
-      <link>//localhost:1313/tags/linux/</link>
-      <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      <guid>//localhost:1313/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LLM</title>
-      <link>//localhost:1313/tags/llm/</link>
-      <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      <guid>//localhost:1313/tags/llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>//localhost:1313/tags/docker/</link>
-      <pubDate>Fri, 17 Nov 2023 06:12:49 +0100</pubDate>
-      <guid>//localhost:1313/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Exchange</title>
-      <link>//localhost:1313/tags/exchange/</link>
-      <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
-      <guid>//localhost:1313/tags/exchange/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Powershell</title>
-      <link>//localhost:1313/tags/powershell/</link>
-      <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
-      <guid>//localhost:1313/tags/powershell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Base64</title>
-      <link>//localhost:1313/tags/base64/</link>
-      <pubDate>Wed, 08 Nov 2023 06:41:27 +0100</pubDate>
-      <guid>//localhost:1313/tags/base64/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RDS</title>
-      <link>//localhost:1313/tags/rds/</link>
-      <pubDate>Thu, 19 Oct 2023 12:11:20 +0200</pubDate>
-      <guid>//localhost:1313/tags/rds/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>UDP</title>
-      <link>//localhost:1313/tags/udp/</link>
-      <pubDate>Thu, 19 Oct 2023 12:11:20 +0200</pubDate>
-      <guid>//localhost:1313/tags/udp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Portainer</title>
-      <link>//localhost:1313/tags/portainer/</link>
-      <pubDate>Mon, 16 Oct 2023 06:57:31 +0200</pubDate>
-      <guid>//localhost:1313/tags/portainer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mount</title>
-      <link>//localhost:1313/tags/mount/</link>
-      <pubDate>Thu, 12 Oct 2023 06:52:45 +0200</pubDate>
-      <guid>//localhost:1313/tags/mount/</guid>
+      <link>lgn.re/tags/linux/</link>
+      <pubDate>Sat, 31 Jan 2026 21:08:00 +0100</pubDate>
+      <guid>lgn.re/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>SSH</title>
-      <link>//localhost:1313/tags/ssh/</link>
+      <link>lgn.re/tags/ssh/</link>
+      <pubDate>Sat, 31 Jan 2026 21:08:00 +0100</pubDate>
+      <guid>lgn.re/tags/ssh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SMB</title>
+      <link>lgn.re/tags/smb/</link>
+      <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
+      <guid>lgn.re/tags/smb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>lgn.re/tags/windows/</link>
+      <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
+      <guid>lgn.re/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alpacat</title>
+      <link>lgn.re/tags/alpacat/</link>
+      <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
+      <guid>lgn.re/tags/alpacat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>lgn.re/tags/llm/</link>
+      <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
+      <guid>lgn.re/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>lgn.re/tags/docker/</link>
+      <pubDate>Fri, 17 Nov 2023 06:12:49 +0100</pubDate>
+      <guid>lgn.re/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exchange</title>
+      <link>lgn.re/tags/exchange/</link>
+      <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
+      <guid>lgn.re/tags/exchange/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powershell</title>
+      <link>lgn.re/tags/powershell/</link>
+      <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
+      <guid>lgn.re/tags/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Base64</title>
+      <link>lgn.re/tags/base64/</link>
+      <pubDate>Wed, 08 Nov 2023 06:41:27 +0100</pubDate>
+      <guid>lgn.re/tags/base64/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RDS</title>
+      <link>lgn.re/tags/rds/</link>
+      <pubDate>Thu, 19 Oct 2023 12:11:20 +0200</pubDate>
+      <guid>lgn.re/tags/rds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UDP</title>
+      <link>lgn.re/tags/udp/</link>
+      <pubDate>Thu, 19 Oct 2023 12:11:20 +0200</pubDate>
+      <guid>lgn.re/tags/udp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portainer</title>
+      <link>lgn.re/tags/portainer/</link>
+      <pubDate>Mon, 16 Oct 2023 06:57:31 +0200</pubDate>
+      <guid>lgn.re/tags/portainer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mount</title>
+      <link>lgn.re/tags/mount/</link>
       <pubDate>Thu, 12 Oct 2023 06:52:45 +0200</pubDate>
-      <guid>//localhost:1313/tags/ssh/</guid>
+      <guid>lgn.re/tags/mount/</guid>
       <description></description>
     </item>
     <item>
       <title>Shedule</title>
-      <link>//localhost:1313/tags/shedule/</link>
+      <link>lgn.re/tags/shedule/</link>
       <pubDate>Wed, 11 Oct 2023 07:17:22 +0200</pubDate>
-      <guid>//localhost:1313/tags/shedule/</guid>
+      <guid>lgn.re/tags/shedule/</guid>
       <description></description>
     </item>
     <item>
       <title>Shutdown</title>
-      <link>//localhost:1313/tags/shutdown/</link>
+      <link>lgn.re/tags/shutdown/</link>
       <pubDate>Wed, 11 Oct 2023 07:17:22 +0200</pubDate>
-      <guid>//localhost:1313/tags/shutdown/</guid>
+      <guid>lgn.re/tags/shutdown/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>//localhost:1313/tags/github/</link>
+      <link>lgn.re/tags/github/</link>
       <pubDate>Sun, 08 Oct 2023 18:42:55 +0200</pubDate>
-      <guid>//localhost:1313/tags/github/</guid>
+      <guid>lgn.re/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenSSL</title>
-      <link>//localhost:1313/tags/openssl/</link>
+      <link>lgn.re/tags/openssl/</link>
       <pubDate>Sun, 08 Oct 2023 16:29:57 +0000</pubDate>
-      <guid>//localhost:1313/tags/openssl/</guid>
+      <guid>lgn.re/tags/openssl/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenVpn</title>
-      <link>//localhost:1313/tags/openvpn/</link>
+      <link>lgn.re/tags/openvpn/</link>
       <pubDate>Sun, 08 Oct 2023 16:29:57 +0000</pubDate>
-      <guid>//localhost:1313/tags/openvpn/</guid>
+      <guid>lgn.re/tags/openvpn/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>//localhost:1313/tags/git/</link>
+      <link>lgn.re/tags/git/</link>
       <pubDate>Sat, 07 Oct 2023 07:42:11 +0200</pubDate>
-      <guid>//localhost:1313/tags/git/</guid>
+      <guid>lgn.re/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>RDP</title>
-      <link>//localhost:1313/tags/rdp/</link>
+      <link>lgn.re/tags/rdp/</link>
       <pubDate>Fri, 29 Sep 2023 16:27:20 +0200</pubDate>
-      <guid>//localhost:1313/tags/rdp/</guid>
+      <guid>lgn.re/tags/rdp/</guid>
       <description></description>
     </item>
   </channel>

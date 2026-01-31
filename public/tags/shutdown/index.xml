@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Shutdown on LGN</title>
-    <link>//localhost:1313/tags/shutdown/</link>
+    <link>lgn.re/tags/shutdown/</link>
     <description>Recent content in Shutdown on LGN</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 11 Oct 2023 07:17:22 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/shutdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="lgn.re/tags/shutdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Planifier Un Redemarrage Sous Linux</title>
-      <link>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</link>
+      <link>lgn.re/posts/2023/10/planifier-un-redemarrage-sous-linux/</link>
       <pubDate>Wed, 11 Oct 2023 07:17:22 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</guid>
+      <guid>lgn.re/posts/2023/10/planifier-un-redemarrage-sous-linux/</guid>
       <description>&lt;p&gt;Une petite note avec des exemples pour utiliser la commande &lt;code&gt;shutdown&lt;/code&gt; afin de planifier un redémarrage de l&amp;rsquo;OS.&lt;/p&gt;
 &lt;p&gt;La commande pour un redémarrage standard se fait avec le paramètre &lt;code&gt;-r&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Redémarrage du système:&lt;/p&gt;

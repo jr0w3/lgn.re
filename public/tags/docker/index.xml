@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docker on LGN</title>
-    <link>//localhost:1313/tags/docker/</link>
+    <link>lgn.re/tags/docker/</link>
     <description>Recent content in Docker on LGN</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 17 Nov 2023 06:12:49 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="lgn.re/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configurer L&#39;heure De L&#39;hote Dans Un Container Docker</title>
-      <link>//localhost:1313/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</link>
+      <link>lgn.re/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</link>
       <pubDate>Fri, 17 Nov 2023 06:12:49 +0100</pubDate>
-      <guid>//localhost:1313/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</guid>
+      <guid>lgn.re/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</guid>
       <description>&lt;h1 id=&#34;configuration-de-lheure-de-lhôte-dans-un-conteneur-docker&#34;&gt;Configuration de l&amp;rsquo;heure de l&amp;rsquo;hôte dans un conteneur Docker&lt;/h1&gt;
 &lt;p&gt;Lorsque vous travaillez avec des conteneurs Docker, il est crucial de garantir que l&amp;rsquo;heure du conteneur correspond à celle du système hôte pour assurer une synchronisation correcte et des horodatages précis. Heureusement, cela peut être réalisé en ajoutant les fichiers de configuration locaux (/etc/timezone et /etc/localtime) en tant que volumes dans votre conteneur Docker.&lt;/p&gt;
 &lt;p&gt;Suivez ces étapes pour mettre en place cette configuration :&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reinitialiser Le Mot De Passe Admin Portainer</title>
-      <link>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</link>
+      <link>lgn.re/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</link>
       <pubDate>Mon, 16 Oct 2023 06:57:31 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</guid>
+      <guid>lgn.re/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</guid>
       <description>&lt;p&gt;Les développeurs de Portainer ont mis à disposition des utilisateurs un container à déployer en cas de perte de mot de passe.&lt;/p&gt;
 &lt;p&gt;Pour commencer, on stop le container Portainer:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker ps

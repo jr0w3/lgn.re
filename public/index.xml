@@ -2,17 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LGN</title>
-    <link>//localhost:1313/</link>
+    <link>lgn.re/</link>
     <description>Recent content on LGN</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Feb 2025 17:04:39 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jan 2026 21:08:00 +0100</lastBuildDate>
+    <atom:link href="lgn.re/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les différents types de clés SSH</title>
+      <link>lgn.re/posts/2025/02/les-differents-types-de-cles-ssh/</link>
+      <pubDate>Sat, 31 Jan 2026 21:08:00 +0100</pubDate>
+      <guid>lgn.re/posts/2025/02/les-differents-types-de-cles-ssh/</guid>
+      <description>&lt;h2 id=&#34;générer-un-clé-ssh&#34;&gt;Générer un clé ssh&lt;/h2&gt;
+&lt;p&gt;Pour Générer une clé SSH, on utilise la commande :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-keygen -t &amp;lt;type&amp;gt; -b &amp;lt;bits&amp;gt; -C &lt;span class=&#34;s2&#34;&gt;&amp;#34;votre_email@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-t &amp;lt;type&amp;gt;&lt;/code&gt; : le type de clé à générer (rsa, ed25519, ecdsa, dsa)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-b &amp;lt;bits&amp;gt;&lt;/code&gt; : la taille de la clé en bits (obligatoire pour RSA et ECDSA, ignorée pour Ed25519)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-C&lt;/code&gt; : un commentaire, souvent votre email pour identifier la clé&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;types-de-clés-ssh&#34;&gt;Types de clés SSH&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Type&lt;/th&gt;
+          &lt;th&gt;Points forts&lt;/th&gt;
+          &lt;th&gt;Points faibles / Notes&lt;/th&gt;
+          &lt;th&gt;Commande exemple&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Ed25519&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Moderne, rapide, sécurisée&lt;/td&gt;
+          &lt;td&gt;Taille fixe, recommandé&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;ssh-keygen -t ed25519 -C &amp;quot;votre_email@example.com&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;RSA&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Très compatible&lt;/td&gt;
+          &lt;td&gt;Plus lent, utilisez 4096 bits&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;ssh-keygen -t rsa -b 4096 -C &amp;quot;votre_email@example.com&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ECDSA&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Rapide, basé sur courbes elliptiques&lt;/td&gt;
+          &lt;td&gt;Moins courant qu’Ed25519&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;ssh-keygen -t ecdsa -b 521 -C &amp;quot;votre_email@example.com&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;DSA&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Ancien&lt;/td&gt;
+          &lt;td&gt;⚠️ Déconseillé aujourd’hui&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;ssh-keygen -t dsa -C &amp;quot;votre_email@example.com&amp;quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
     <item>
       <title>Lister Les Sessions Smb Sur Windows</title>
-      <link>//localhost:1313/posts/2025/02/lister-les-sessions-smb-sur-windows/</link>
+      <link>lgn.re/posts/2025/02/lister-les-sessions-smb-sur-windows/</link>
       <pubDate>Thu, 13 Feb 2025 17:04:39 +0100</pubDate>
-      <guid>//localhost:1313/posts/2025/02/lister-les-sessions-smb-sur-windows/</guid>
+      <guid>lgn.re/posts/2025/02/lister-les-sessions-smb-sur-windows/</guid>
       <description>&lt;h2 id=&#34;get-smbsession&#34;&gt;&lt;code&gt;Get-SmbSession&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Cette commande permet d&amp;rsquo;afficher les sessions SMB actives sur un serveur Windows. Elle liste les utilisateurs connectés ainsi que des informations comme le nom du client et l&amp;rsquo;état de la connexion.&lt;/p&gt;
 &lt;h2 id=&#34;get-smbsession--measure-objectcount&#34;&gt;&lt;code&gt;(Get-SmbSession | Measure-Object).Count&lt;/code&gt;&lt;/h2&gt;
@@ -22,9 +73,9 @@
     </item>
     <item>
       <title>Installer Alpaca Sur Ubuntu</title>
-      <link>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
+      <link>lgn.re/posts/2025/02/installer-alpaca-sur-ubuntu/</link>
       <pubDate>Thu, 06 Feb 2025 20:09:35 +0100</pubDate>
-      <guid>//localhost:1313/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
+      <guid>lgn.re/posts/2025/02/installer-alpaca-sur-ubuntu/</guid>
       <description>&lt;p&gt;Alpaca est un outil graphique sur Linux qui peret de gérer et télécharger des modèle de language sous Linux, mais iul offre également un prompt afin d&amp;rsquo;échanger avec le modèle.&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Installation de Flatpak&lt;/p&gt;
@@ -37,18 +88,18 @@
     </item>
     <item>
       <title>Configurer L&#39;heure De L&#39;hote Dans Un Container Docker</title>
-      <link>//localhost:1313/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</link>
+      <link>lgn.re/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</link>
       <pubDate>Fri, 17 Nov 2023 06:12:49 +0100</pubDate>
-      <guid>//localhost:1313/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</guid>
+      <guid>lgn.re/posts/2023/11/configurer-lheure-de-lhote-dans-un-container-docker/</guid>
       <description>&lt;h1 id=&#34;configuration-de-lheure-de-lhôte-dans-un-conteneur-docker&#34;&gt;Configuration de l&amp;rsquo;heure de l&amp;rsquo;hôte dans un conteneur Docker&lt;/h1&gt;
 &lt;p&gt;Lorsque vous travaillez avec des conteneurs Docker, il est crucial de garantir que l&amp;rsquo;heure du conteneur correspond à celle du système hôte pour assurer une synchronisation correcte et des horodatages précis. Heureusement, cela peut être réalisé en ajoutant les fichiers de configuration locaux (/etc/timezone et /etc/localtime) en tant que volumes dans votre conteneur Docker.&lt;/p&gt;
 &lt;p&gt;Suivez ces étapes pour mettre en place cette configuration :&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ajouter Une Délégation à Un Groupe De Sécurité Sur Exchange OnPremise</title>
-      <link>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</link>
+      <link>lgn.re/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</link>
       <pubDate>Fri, 10 Nov 2023 16:43:37 +0100</pubDate>
-      <guid>//localhost:1313/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</guid>
+      <guid>lgn.re/posts/2023/11/ajouter-une-delegation-a-un-groupe-de-securite-sur-exchange-onpremise/</guid>
       <description>&lt;h2 id=&#34;récupération-du-guid-du-groupe&#34;&gt;Récupération du GUID du groupe&lt;/h2&gt;
 &lt;p&gt;Pour commencer, il faut trouver le GUID du groupe.
 Depuis une console &lt;strong&gt;Exchange Mananagent Shell&lt;/strong&gt;:&lt;/p&gt;
@@ -65,18 +116,18 @@ Nous utilisons le &lt;code&gt;-Identity&lt;/code&gt; pour rechercher notre boite
     </item>
     <item>
       <title>La Commande Base64</title>
-      <link>//localhost:1313/posts/2023/11/la-commande-base64/</link>
+      <link>lgn.re/posts/2023/11/la-commande-base64/</link>
       <pubDate>Wed, 08 Nov 2023 06:41:27 +0100</pubDate>
-      <guid>//localhost:1313/posts/2023/11/la-commande-base64/</guid>
+      <guid>lgn.re/posts/2023/11/la-commande-base64/</guid>
       <description>&lt;h1 id=&#34;comment-utiliser-le-base64-avec-fichier-ou-en-ligne-de-commande-direct&#34;&gt;Comment utiliser le base64 avec fichier ou en ligne de commande direct&lt;/h1&gt;
 &lt;p&gt;Le base64 est un système de codage qui permet de représenter des données binaires sous forme de chaînes de caractères ASCII. Il est souvent utilisé pour transmettre des données qui ne sont pas compatibles avec certains protocoles ou formats, comme les images, les fichiers PDF, les courriels, etc.&lt;/p&gt;
 &lt;p&gt;Pour utiliser le base64 avec fichier ou en ligne de commande direct, vous pouvez utiliser la commande base64 qui fait partie du paquet coreutils sur les systèmes Linux. Cette commande permet de coder ou de décoder des données en base64 en utilisant des options et des arguments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La Gestion D&#39;archive Tar</title>
-      <link>//localhost:1313/posts/2023/10/la-gestion-darchive-tar/</link>
+      <link>lgn.re/posts/2023/10/la-gestion-darchive-tar/</link>
       <pubDate>Mon, 30 Oct 2023 06:30:02 +0100</pubDate>
-      <guid>//localhost:1313/posts/2023/10/la-gestion-darchive-tar/</guid>
+      <guid>lgn.re/posts/2023/10/la-gestion-darchive-tar/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Créer une archive&lt;/strong&gt; :&lt;/li&gt;
 &lt;/ol&gt;
@@ -96,9 +147,9 @@ Nous utilisons le &lt;code&gt;-Identity&lt;/code&gt; pour rechercher notre boite
     </item>
     <item>
       <title>Désactiver l&#39;UDP Sur Les Clients RDS Windows</title>
-      <link>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</link>
+      <link>lgn.re/posts/2023/10/desactiver-ludp-sur-les-client-rds/</link>
       <pubDate>Thu, 19 Oct 2023 12:11:20 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/desactiver-ludp-sur-les-client-rds/</guid>
+      <guid>lgn.re/posts/2023/10/desactiver-ludp-sur-les-client-rds/</guid>
       <description>&lt;p&gt;L&amp;rsquo;utilisation du protocole UDP avec le RDS (Remote Desktop Service) peut parfois poser des problèmes de stabilité dans certaines conditions.
 Il peut être nécessaire de déactiver cette possibilité afin de forcer les clients RDS à n&amp;rsquo;utiliser que le protocole TCP.&lt;/p&gt;
 &lt;h3 id=&#34;désactivation-via-léditeur-de-stratégie-de-groupe-local&#34;&gt;Désactivation via l&amp;rsquo;éditeur de stratégie de groupe local:&lt;/h3&gt;
@@ -111,9 +162,9 @@ Il peut être nécessaire de déactiver cette possibilité afin de forcer les cl
     </item>
     <item>
       <title>Reinitialiser Le Mot De Passe Admin Portainer</title>
-      <link>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</link>
+      <link>lgn.re/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</link>
       <pubDate>Mon, 16 Oct 2023 06:57:31 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</guid>
+      <guid>lgn.re/posts/2023/10/reinitialiser-le-mot-de-passe-admin-portainer/</guid>
       <description>&lt;p&gt;Les développeurs de Portainer ont mis à disposition des utilisateurs un container à déployer en cas de perte de mot de passe.&lt;/p&gt;
 &lt;p&gt;Pour commencer, on stop le container Portainer:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker ps
@@ -125,9 +176,9 @@ Il peut être nécessaire de déactiver cette possibilité afin de forcer les cl
     </item>
     <item>
       <title>Monter Un Répertoire Distant via Un Tunnel Ssh</title>
-      <link>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</link>
+      <link>lgn.re/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</link>
       <pubDate>Thu, 12 Oct 2023 06:52:45 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</guid>
+      <guid>lgn.re/posts/2023/10/monter-un-repertoire-distant-via-un-tunnel-ssh/</guid>
       <description>&lt;p&gt;&lt;code&gt;SSHFS&lt;/code&gt; est un outil en ligne de commande qui permet de monter un système de fichier distant via &lt;code&gt;SSH&lt;/code&gt; et plus précisément en utilisant &lt;code&gt;SFTP&lt;/code&gt;.
 Sachez que &lt;code&gt;SFTP&lt;/code&gt; et actif par défaut sur la plupart des serveurs OpenSSH.&lt;/p&gt;
 &lt;h3 id=&#34;installer-sshfs&#34;&gt;Installer SSHFS:&lt;/h3&gt;
@@ -139,9 +190,9 @@ Sachez que &lt;code&gt;SFTP&lt;/code&gt; et actif par défaut sur la plupart des
     </item>
     <item>
       <title>Planifier Un Redemarrage Sous Linux</title>
-      <link>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</link>
+      <link>lgn.re/posts/2023/10/planifier-un-redemarrage-sous-linux/</link>
       <pubDate>Wed, 11 Oct 2023 07:17:22 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/planifier-un-redemarrage-sous-linux/</guid>
+      <guid>lgn.re/posts/2023/10/planifier-un-redemarrage-sous-linux/</guid>
       <description>&lt;p&gt;Une petite note avec des exemples pour utiliser la commande &lt;code&gt;shutdown&lt;/code&gt; afin de planifier un redémarrage de l&amp;rsquo;OS.&lt;/p&gt;
 &lt;p&gt;La commande pour un redémarrage standard se fait avec le paramètre &lt;code&gt;-r&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Redémarrage du système:&lt;/p&gt;
@@ -158,9 +209,9 @@ Sachez que &lt;code&gt;SFTP&lt;/code&gt; et actif par défaut sur la plupart des
     </item>
     <item>
       <title>Politique de Commentaires</title>
-      <link>//localhost:1313/page/comment-policy/</link>
+      <link>lgn.re/page/comment-policy/</link>
       <pubDate>Mon, 09 Oct 2023 07:02:57 +0200</pubDate>
-      <guid>//localhost:1313/page/comment-policy/</guid>
+      <guid>lgn.re/page/comment-policy/</guid>
       <description>&lt;p&gt;Bienvenue sur [Nom de votre Blog] ! J&amp;rsquo;apprécie votre participation à ma communauté et vos commentaires sur mes articles. Pour garantir un environnement respectueux et constructif pour tous mes lecteurs, j&amp;rsquo;ai établi les lignes directrices suivantes pour les commentaires sur mon blog :&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -168,9 +219,9 @@ Sachez que &lt;code&gt;SFTP&lt;/code&gt; et actif par défaut sur la plupart des
     </item>
     <item>
       <title>Comment Obtenir Le Lien De La Derniere Release Dun Repo Github</title>
-      <link>//localhost:1313/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</link>
+      <link>lgn.re/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</link>
       <pubDate>Sun, 08 Oct 2023 18:42:55 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</guid>
+      <guid>lgn.re/posts/2023/10/comment-obtenir-le-lien-de-la-derniere-release-dun-repo-github/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Lorsque vous souhaitez télécharger la dernière version d’un logiciel open-source à partir de son repository Github, vous devez d’abord trouver le lien de téléchargement pour la dernière release disponible. Dans cet article, nous allons vous montrer comment trouver ce lien de téléchargement à l’aide de l’API Github.&lt;/p&gt;
 &lt;h2 id=&#34;utilisation-de-lapi-github-pour-récupérer-les-informations-de-version&#34;&gt;Utilisation de l’API Github pour récupérer les informations de version&lt;/h2&gt;
@@ -178,18 +229,18 @@ Sachez que &lt;code&gt;SFTP&lt;/code&gt; et actif par défaut sur la plupart des
     </item>
     <item>
       <title>OpenVPN error:0A00018E:SSL routines::ca md too weak</title>
-      <link>//localhost:1313/posts/2023/10/openvpn-error0a00018essl-routinesca-md-too-weak/</link>
+      <link>lgn.re/posts/2023/10/openvpn-error0a00018essl-routinesca-md-too-weak/</link>
       <pubDate>Sun, 08 Oct 2023 16:29:57 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023/10/openvpn-error0a00018essl-routinesca-md-too-weak/</guid>
+      <guid>lgn.re/posts/2023/10/openvpn-error0a00018essl-routinesca-md-too-weak/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;L’erreur « OpenSSL: error:0A00018E:SSL routines::ca md too weak » est un message d’erreur qui apparaît lorsqu’OpenSSL, une bibliothèque de cryptographie utilisée pour sécuriser les connexions réseau, détecte un algorithme de hachage CA (Certificate Authority) trop faible. Cela signifie que la sécurité de la connexion est compromise et qu’il peut y avoir un risque de compromission de la confidentialité et de l’intégrité des données échangées.&lt;/p&gt;
 &lt;p&gt;En termes plus simples, cette erreur se produit lorsqu’un certificat utilisé pour sécuriser une connexion VPN ou un autre type de connexion réseau utilise un algorithme de hachage CA faible, qui peut être facilement compromis par des attaquants malveillants. Cela peut se produire si le certificat a été généré il y a longtemps et qu’il n’a pas été mis à jour pour répondre aux normes de sécurité plus récentes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloner un dépôt Git avec ses sous-modules</title>
-      <link>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</link>
+      <link>lgn.re/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</link>
       <pubDate>Sat, 07 Oct 2023 07:42:11 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</guid>
+      <guid>lgn.re/posts/2023/10/cloner-un-depot-git-avec-ses-sous-modules/</guid>
       <description>&lt;h2 id=&#34;cloner-un-depôt-git-avec-ses-sous-modules&#34;&gt;Cloner un depôt Git avec ses sous-modules&lt;/h2&gt;
 &lt;p&gt;Vous pouvez cloner un dépôt Git avec des sous-modules en utilisant la commande &lt;code&gt;git clone&lt;/code&gt; avec l&amp;rsquo;option &lt;code&gt;--recurse-submodules&lt;/code&gt;. Voici comment faire :&lt;/p&gt;
 &lt;ol&gt;
@@ -204,9 +255,9 @@ Sachez que &lt;code&gt;SFTP&lt;/code&gt; et actif par défaut sur la plupart des
     </item>
     <item>
       <title>Désactiver l&#39;enregistrement des mots de passe du Bureau à distance</title>
-      <link>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</link>
+      <link>lgn.re/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</link>
       <pubDate>Fri, 29 Sep 2023 16:27:20 +0200</pubDate>
-      <guid>//localhost:1313/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</guid>
+      <guid>lgn.re/posts/2023/09/desactiver-enregistrement-des-mots-de-passe-du-bureau-a-distance/</guid>
       <description>&lt;p&gt;Pour des raisons de sécurité, il peutêtre utiles sur Windows d&amp;rsquo;empêcher les utilisateurs de mémoriser le mot de passe de leur compte pour une connexion Bureau à distance.&lt;/p&gt;
 &lt;h4 id=&#34;désactiver-la-mémorisation-depuis-léditeur-de-stratégie-de-groupe-local&#34;&gt;Désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local&lt;/h4&gt;
 &lt;p&gt;Pour désactiver la mémorisation depuis l&amp;rsquo;éditeur de stratégie de groupe local, il vous suffit de vous rendre dans: &lt;strong&gt;Configuration ordinateur&lt;/strong&gt; &amp;gt; &lt;strong&gt;Composants Windows&lt;/strong&gt; &amp;gt; &lt;strong&gt;Service Bureau à distance&lt;/strong&gt; &amp;gt; &lt;strong&gt;Client Connexion Bureau à distance&lt;/strong&gt;, il ne vous restera plus alors qu&amp;rsquo;à activer le paramètre &amp;ldquo;&lt;strong&gt;Ne pas autoriser l&amp;rsquo;enregistrement des mots de passe&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;</description>

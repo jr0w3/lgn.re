@@ -102,7 +102,7 @@ params:
   editPost:
    # URL: "https://github.com//content"
    # Text: "Suggérer une modification" # edit text
-   # appendFilePath: true # to append file path to Edit link
+   # appendFilePath: true # to append file path to Edit linhttps://github.com/lukeorth/poisonk
   titleCaseStyle: firstupper
   # for search
   # https://fusejs.io/api/options.html
